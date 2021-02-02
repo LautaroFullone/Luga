@@ -46,7 +46,7 @@ return [
     */
 
     'logo' => '<b>Luga</b> | Distribuidora',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png', //la imagen del logo, lo q esta arriba a la izquierda
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -64,12 +64,13 @@ return [
     |
     */
 
-    'usermenu_enabled' => true,
-    'usermenu_header' => true,
-    'usermenu_header_class' => 'bg-success',
-    'usermenu_image' => true,
-    'usermenu_desc' => true,
-    'usermenu_profile_url' => true,
+    //Todo estos son para el cartelito de arriba a la deerecha cuando hacer click en el nombre del user
+    'usermenu_enabled' => true,// para q aparezca el usuario con la foto de perfil arriba a la drecha
+    'usermenu_header' => true,// al hacer click que aparezca el nombre y el rol
+    'usermenu_header_class' => 'bg-success',//el color del cartel de arriba
+    'usermenu_image' => true,//para q muestre la imagen de usuario o no
+    'usermenu_desc' => true,// para q aparezca el rol en el cartelito
+    'usermenu_profile_url' => true,// para q aparezca el boton de perfil en el cartelito
 
     /*
     |--------------------------------------------------------------------------
@@ -83,10 +84,10 @@ return [
     |
     */
 
-    'layout_topnav' => null,
-    'layout_boxed' => null,
-    'layout_fixed_sidebar' => null,
-    'layout_fixed_navbar' => null,
+    'layout_topnav' => null, //El nav aparece todo junto arriba
+    'layout_boxed' => null, //le da un margen a la pagina(no usar)
+    'layout_fixed_sidebar' => true,// para q se puede scrollear en la barra de la izquierda
+    'layout_fixed_navbar' => null,//hace q la barra de arriba no desaparezca
     'layout_fixed_footer' => null,
 
     /*
@@ -126,7 +127,7 @@ return [
     'classes_content_wrapper' => '',
     'classes_content_header' => '',
     'classes_content' => '',
-    'classes_sidebar' => 'sidebar-dark-primary elevation-4',
+    'classes_sidebar' => 'sidebar-dark-primary elevation-4',// el color del primer icono del nav bar
     'classes_sidebar_nav' => '',
     'classes_topnav' => 'colorLuga navbar-dark',
     'classes_topnav_nav' => 'navbar-expand',
