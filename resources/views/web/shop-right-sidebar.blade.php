@@ -1,11 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
-    
-<!-- shop-list-right-sidebar31:48-->
+
+<!-- shop-right-sidebar31:48-->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Shop List Right Sidebar || limupa - Digital Products Store eCommerce Bootstrap 4 Template</title>
+        <title>Shop Right Sidebar || limupa - Digital Products Store eCommerce Bootstrap 4 Template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -130,75 +130,75 @@
                                 <!-- Begin Header Middle Searchbox Area -->
                                 <form action="#" class="hm-searchbox">
                                     <select class="nice-select select-search-category">
-                                        <option value="0">All</option>                         
-                                        <option value="10">Laptops</option>                     
-                                        <option value="17">- -  Prime Video</option>                    
-                                        <option value="20">- - - -  All Videos</option>                     
-                                        <option value="21">- - - -  Blouses</option>                        
-                                        <option value="22">- - - -  Evening Dresses</option>                
-                                        <option value="23">- - - -  Summer Dresses</option>                     
-                                        <option value="24">- - - -  T-shirts</option>                       
-                                        <option value="25">- - - -  Rent or Buy</option>                        
-                                        <option value="26">- - - -  Your Watchlist</option>                     
-                                        <option value="27">- - - -  Watch Anywhere</option>                     
-                                        <option value="28">- - - -  Getting Started</option>         
-                                        <option value="18">- - - -  Computers</option>                      
-                                        <option value="29">- - - -  More to Explore</option>         
-                                        <option value="30">- - - -  TV &amp; Video</option>                     
-                                        <option value="31">- - - -  Audio &amp; Theater</option>               
+                                        <option value="0">All</option>
+                                        <option value="10">Laptops</option>
+                                        <option value="17">- -  Prime Video</option>
+                                        <option value="20">- - - -  All Videos</option>
+                                        <option value="21">- - - -  Blouses</option>
+                                        <option value="22">- - - -  Evening Dresses</option>
+                                        <option value="23">- - - -  Summer Dresses</option>
+                                        <option value="24">- - - -  T-shirts</option>
+                                        <option value="25">- - - -  Rent or Buy</option>
+                                        <option value="26">- - - -  Your Watchlist</option>
+                                        <option value="27">- - - -  Watch Anywhere</option>
+                                        <option value="28">- - - -  Getting Started</option>
+                                        <option value="18">- - - -  Computers</option>
+                                        <option value="29">- - - -  More to Explore</option>
+                                        <option value="30">- - - -  TV &amp; Video</option>
+                                        <option value="31">- - - -  Audio &amp; Theater</option>
                                         <option value="32">- - - -  Camera, Photo </option>
-                                        <option value="33">- - - -  Cell Phones</option>                        
-                                        <option value="34">- - - -  Headphones</option>                     
-                                        <option value="35">- - - -  Video Games</option>                        
-                                        <option value="36">- - - -  Wireless Speakers</option>            
-                                        <option value="19">- - - -  Electronics</option>                        
-                                        <option value="37">- - - -  Amazon Home</option>                        
-                                        <option value="38">- - - -  Kitchen &amp; Dining</option>           
-                                        <option value="39">- - - -  Furniture</option>                      
-                                        <option value="40">- - - -  Bed &amp; Bath</option>                     
-                                        <option value="41">- - - -  Appliances</option>                 
-                                        <option value="11">TV &amp; Audio</option>                  
-                                        <option value="42">- -  SamSung</option>                        
-                                        <option value="45">- - - -  Office</option>                     
-                                        <option value="47">- - - -  Gaming</option>                 
-                                        <option value="48">- - - -  Chromebook</option>                     
-                                        <option value="49">- - - -  Refurbished</option>                    
-                                        <option value="50">- - - -  Touchscreen</option>                        
-                                        <option value="51">- - - -  Ultrabooks</option>                     
-                                        <option value="52">- - - -  Blouses</option>                        
-                                        <option value="43">- -  Toshiba</option>                        
-                                        <option value="53">- - - -  Hard Drives</option>                        
-                                        <option value="54">- - - -  Graphic Cards</option>                      
-                                        <option value="55">- - - -  Processors (CPU)</option>  
-                                        <option value="56">- - - -  Memory</option>                     
-                                        <option value="57">- - - -  Motherboards</option>                       
-                                        <option value="58">- - - -  Fans &amp; Cooling</option> 
-                                        <option value="59">- - - -  CD/DVD Drives</option>                      
-                                        <option value="44">- -  Sony Bravia</option>                        
-                                        <option value="60">- - - -  Sound Cards</option>                        
-                                        <option value="61">- - - -  Cases &amp; Towers</option>   
-                                        <option value="62">- - - -  Casual Dresses</option>                     
-                                        <option value="63">- - - -  Evening Dresses</option>       
-                                        <option value="64">- - - -  T-shirts</option>                       
-                                        <option value="65">- - - -  Tops</option>                                 
-                                        <option value="12">Smartphone</option>                  
-                                        <option value="66">- -  Camera Accessories</option>                     
-                                        <option value="68">- - - -  Octa Core</option>                      
-                                        <option value="69">- - - -  Quad Core</option>                  
-                                        <option value="70">- - - -  Dual Core</option>                      
-                                        <option value="71">- - - -  7.0 Screen</option>                     
-                                        <option value="72">- - - -  9.0 Screen</option>                     
-                                        <option value="73">- - - -  Bags &amp; Cases</option>                   
-                                        <option value="67">- -  Camcorders</option>                     
-                                        <option value="74">- - - -  Batteries</option>                      
-                                        <option value="75">- - - -  Microphones</option>                        
-                                        <option value="76">- - - -  Stabilizers</option>                        
-                                        <option value="77">- - - -  Video Tapes</option>                        
-                                        <option value="78">- - - -  Memory Card Readers</option> 
-                                        <option value="79">- - - -  Tripods</option>           
-                                        <option value="13">Cameras</option>                          
-                                        <option value="14">headphone</option>                                
-                                        <option value="15">Smartwatch</option>                           
+                                        <option value="33">- - - -  Cell Phones</option>
+                                        <option value="34">- - - -  Headphones</option>
+                                        <option value="35">- - - -  Video Games</option>
+                                        <option value="36">- - - -  Wireless Speakers</option>
+                                        <option value="19">- - - -  Electronics</option>
+                                        <option value="37">- - - -  Amazon Home</option>
+                                        <option value="38">- - - -  Kitchen &amp; Dining</option>
+                                        <option value="39">- - - -  Furniture</option>
+                                        <option value="40">- - - -  Bed &amp; Bath</option>
+                                        <option value="41">- - - -  Appliances</option>
+                                        <option value="11">TV &amp; Audio</option>
+                                        <option value="42">- -  SamSung</option>
+                                        <option value="45">- - - -  Office</option>
+                                        <option value="47">- - - -  Gaming</option>
+                                        <option value="48">- - - -  Chromebook</option>
+                                        <option value="49">- - - -  Refurbished</option>
+                                        <option value="50">- - - -  Touchscreen</option>
+                                        <option value="51">- - - -  Ultrabooks</option>
+                                        <option value="52">- - - -  Blouses</option>
+                                        <option value="43">- -  Toshiba</option>
+                                        <option value="53">- - - -  Hard Drives</option>
+                                        <option value="54">- - - -  Graphic Cards</option>
+                                        <option value="55">- - - -  Processors (CPU)</option>
+                                        <option value="56">- - - -  Memory</option>
+                                        <option value="57">- - - -  Motherboards</option>
+                                        <option value="58">- - - -  Fans &amp; Cooling</option>
+                                        <option value="59">- - - -  CD/DVD Drives</option>
+                                        <option value="44">- -  Sony Bravia</option>
+                                        <option value="60">- - - -  Sound Cards</option>
+                                        <option value="61">- - - -  Cases &amp; Towers</option>
+                                        <option value="62">- - - -  Casual Dresses</option>
+                                        <option value="63">- - - -  Evening Dresses</option>
+                                        <option value="64">- - - -  T-shirts</option>
+                                        <option value="65">- - - -  Tops</option>
+                                        <option value="12">Smartphone</option>
+                                        <option value="66">- -  Camera Accessories</option>
+                                        <option value="68">- - - -  Octa Core</option>
+                                        <option value="69">- - - -  Quad Core</option>
+                                        <option value="70">- - - -  Dual Core</option>
+                                        <option value="71">- - - -  7.0 Screen</option>
+                                        <option value="72">- - - -  9.0 Screen</option>
+                                        <option value="73">- - - -  Bags &amp; Cases</option>
+                                        <option value="67">- -  Camcorders</option>
+                                        <option value="74">- - - -  Batteries</option>
+                                        <option value="75">- - - -  Microphones</option>
+                                        <option value="76">- - - -  Stabilizers</option>
+                                        <option value="77">- - - -  Video Tapes</option>
+                                        <option value="78">- - - -  Memory Card Readers</option>
+                                        <option value="79">- - - -  Tripods</option>
+                                        <option value="13">Cameras</option>
+                                        <option value="14">headphone</option>
+                                        <option value="15">Smartwatch</option>
                                         <option value="16">Accessories</option>
                                     </select>
                                     <input type="text" placeholder="Enter your search key ...">
@@ -297,10 +297,10 @@
                                                             <li><a href="shop-3-column.html">Shop 3 Column</a></li>
                                                             <li><a href="shop-4-column.html">Shop 4 Column</a></li>
                                                             <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                                            <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
+                                                            <li class="active"><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
                                                             <li><a href="shop-list.html">Shop List</a></li>
                                                             <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                                                            <li class="active"><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
+                                                            <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
                                                         </ul>
                                                     </li>
                                                     <li><a href="single-product-gallery-left.html">Single Product Style</a>
@@ -412,7 +412,7 @@
                 <!-- Header Bottom Area End Here -->
                 <!-- Begin Mobile Menu Area -->
                 <div class="mobile-menu-area d-lg-none d-xl-none col-12">
-                    <div class="container"> 
+                    <div class="container">
                         <div class="row">
                             <div class="mobile-menu">
                             </div>
@@ -428,17 +428,17 @@
                     <div class="breadcrumb-content">
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li class="active">Shop List Right Sidebar</li>
+                            <li class="active">Shop Right Sidebar</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <!-- Li's Breadcrumb Area End Here -->
             <!-- Begin Li's Content Wraper Area -->
-            <div class="content-wraper pt-60 pb-60">
+            <div class="content-wraper pt-60 pb-60 pt-sm-30 pt-xs-30">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-9 order-2 order-lg-1">
+                        <div class="col-lg-9 order-2 order-lg-1 order-sm-1">
                             <!-- Begin Li's Banner Area -->
                             <div class="single-banner shop-page-banner">
                                 <a href="#">
@@ -452,8 +452,8 @@
                                     <div class="product-view-mode">
                                         <!-- shop-item-filter-list start -->
                                         <ul class="nav shop-item-filter-list" role="tablist">
-                                            <li role="presentation"><a data-toggle="tab" role="tab" aria-controls="grid-view" href="#grid-view"><i class="fa fa-th"></i></a></li>
-                                            <li class="active" role="presentation"><a aria-selected="true" class="active show" data-toggle="tab" role="tab" aria-controls="list-view" href="#list-view"><i class="fa fa-th-list"></i></a></li>
+                                            <li class="active" role="presentation"><a aria-selected="true" class="active show" data-toggle="tab" role="tab" aria-controls="grid-view" href="#grid-view"><i class="fa fa-th"></i></a></li>
+                                            <li role="presentation"><a data-toggle="tab" role="tab" aria-controls="list-view" href="#list-view"><i class="fa fa-th-list"></i></a></li>
                                         </ul>
                                         <!-- shop-item-filter-list end -->
                                     </div>
@@ -482,7 +482,7 @@
                             <!-- shop-products-wrapper start -->
                             <div class="shop-products-wrapper">
                                 <div class="tab-content">
-                                    <div id="grid-view" class="tab-pane fade" role="tabpanel">
+                                    <div id="grid-view" class="tab-pane fade active show" role="tabpanel">
                                         <div class="product-area shop-product-area">
                                             <div class="row">
                                                 <div class="col-lg-4 col-md-4 col-sm-6 mt-40">
@@ -980,7 +980,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="list-view" class="tab-pane fade product-list-view active show" role="tabpanel">
+                                    <div id="list-view" class="tab-pane fade product-list-view" role="tabpanel">
                                         <div class="row">
                                             <div class="col">
                                                 <div class="row product-layout-list">
@@ -1516,11 +1516,11 @@
                                     </div>
                                     <div class="paginatoin-area">
                                         <div class="row">
-                                            <div class="col-lg-6 col-md-6">
+                                            <div class="col-lg-6 col-md-6 pt-xs-15">
                                                 <p>Showing 1-12 of 13 item(s)</p>
                                             </div>
                                             <div class="col-lg-6 col-md-6">
-                                                <ul class="pagination-box">
+                                                <ul class="pagination-box pt-xs-20 pb-xs-15">
                                                     <li><a href="#" class="Previous"><i class="fa fa-chevron-left"></i> Previous</a>
                                                     </li>
                                                     <li class="active"><a href="#">1</a></li>
@@ -1555,7 +1555,7 @@
                                                 <li><a href="#">T-Rent or Buy</a></li>
                                                 <li><a href="#">Your Watchlist</a></li>
                                                 <li><a href="#">Watch Anywhere</a></li>
-                                                <li><a href="#">Getting Started</a></li>  
+                                                <li><a href="#">Getting Started</a></li>
                                             </ul>
                                         </li>
                                         <li class="has-sub"><a href="#">Computer</a>
@@ -1566,7 +1566,7 @@
                                                 <li><a href="#">Cell Phones</a></li>
                                                 <li><a href="#">Headphones</a></li>
                                                 <li><a href="#">Video Games</a></li>
-                                                <li><a href="#">Wireless Speakers</a></li> 
+                                                <li><a href="#">Wireless Speakers</a></li>
                                             </ul>
                                         </li>
                                         <li class="has-sub"><a href="#">Electronics</a>
@@ -1574,7 +1574,7 @@
                                                 <li><a href="#">Amazon Home</a></li>
                                                 <li><a href="#">Kitchen & Dining</a></li>
                                                 <li><a href="#">Bed & Bath</a></li>
-                                                <li><a href="#">Appliances</a></li>    
+                                                <li><a href="#">Appliances</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -1664,7 +1664,7 @@
                             </div>
                             <!--sidebar-categores-box end  -->
                             <!-- category-sub-menu start -->
-                            <div class="sidebar-categores-box mb-sm-0">
+                            <div class="sidebar-categores-box mb-sm-0 mb-xs-0">
                                 <div class="sidebar-title">
                                     <h2>Laptop</h2>
                                 </div>
@@ -1944,7 +1944,7 @@
                                                 <img src="images/product/large-size/6.jpg" alt="product image">
                                             </div>
                                         </div>
-                                        <div class="product-details-thumbs slider-thumbs-1">                                        
+                                        <div class="product-details-thumbs slider-thumbs-1">
                                             <div class="sm-image"><img src="images/product/small-size/1.jpg" alt="product image thumb"></div>
                                             <div class="sm-image"><img src="images/product/small-size/2.jpg" alt="product image thumb"></div>
                                             <div class="sm-image"><img src="images/product/small-size/3.jpg" alt="product image thumb"></div>
@@ -2022,7 +2022,7 @@
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>
             <!-- Quick View | Modal Area End Here -->
         </div>
         <!-- Body Wrapper End Here -->
@@ -2070,5 +2070,5 @@
         <script src="js/main.js"></script>
     </body>
 
-<!-- shop-list-right-sidebar31:48-->
+<!-- shop-right-sidebar31:48-->
 </html>
