@@ -3,7 +3,7 @@
 @section ('title' ,'Adminitracion')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    <h1>Compras</h1>
 @stop
 
 @section('content')
@@ -27,7 +27,6 @@
     </div>
 </div>
 @stop
-
 
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
