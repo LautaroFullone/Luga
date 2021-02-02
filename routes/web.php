@@ -25,7 +25,7 @@ Route::get('/', 'HomeController@index')->name('home');
 
 //-------------------------------------------------------------------------------------
 
-
+Route::get('/index', 'WebController@index')->name('web.index');
 
 
 
