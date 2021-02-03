@@ -22,6 +22,7 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index');
 
 //-------------------------------------------------------------------------------------
 
