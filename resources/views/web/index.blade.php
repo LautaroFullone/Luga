@@ -6,6 +6,9 @@
     <title>Luga Distribuidora | index</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="{{ asset('css/estilos.css') }}" rel="stylesheet">
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/favicon.png')}}">
     <!-- Material Design Iconic Font-V2.2.0 -->
@@ -271,6 +274,7 @@
                     </div>
                 </div>
                 <!-- Header Middle Area End Here -->
+
                 <!-- Begin Header Bottom Area -->
                 <div class="header-bottom header-sticky d-none d-lg-block d-xl-block">
                     <div class="container">
