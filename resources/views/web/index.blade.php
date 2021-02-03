@@ -276,60 +276,106 @@
                 <!-- Header Middle Area End Here -->
 
                 <!-- Begin Header Bottom Area -->
-                <div class="header-bottom header-sticky d-none d-lg-block d-xl-block">
+                <div class="header-bottom  d-none d-lg-block d-xl-block">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
                                 <!-- Begin Header Bottom Menu Area -->
                                 <div class="hb-menu">
                                     <nav>
+
                                         <ul>
-                                            <li class="holder"><a href="index.html">Home</a>
+                                            <li class="d-none"><a href="index.html">Home</a>
                                                 <ul class="hb-dropdown">
                                                     <li class="active"><a href="index.html">Home One</a></li>
                                                     <li><a href="index-2.html">Home Two</a></li>
                                                     <li><a href="index-3.html">Home Three</a></li>
                                                     <li><a href="index-4.html">Home Four</a></li>
+                                                    <li><a href="about-us.html">About Us</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="megamenu-holder"><a href="shop-left-sidebar.html">Shop</a>
+                                            <li class="megamenu-holder"><a href="#">Electronica</a>
                                                 <ul class="megamenu hb-megamenu">
-                                                    <li><a href="shop-left-sidebar.html">Shop Page Layout</a>
+                                                    <li><a href="#">Accesorios</a>
                                                         <ul>
-                                                            <li><a href="shop-3-column.html">Shop 3 Column</a></li>
-                                                            <li><a href="shop-4-column.html">Shop 4 Column</a></li>
-                                                            <li><a href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-                                                            <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-                                                            <li><a href="shop-list.html">Shop List</a></li>
-                                                            <li><a href="shop-list-left-sidebar.html">Shop List Left Sidebar</a></li>
-                                                            <li><a href="shop-list-right-sidebar.html">Shop List Right Sidebar</a></li>
+                                                            <li><a href="#">Adaptadores</a></li>
+                                                            <li><a href="#">Cargadores</a></li>
+                                                            <li><a href="#">Control Remoto</a></li>
+                                                            <li><a href="#">Conversor</a></li>
+                                                            <li><a href="#">Hub Usb</a></li>
+                                                            <li><a href="#">Lector de Memorias</a></li>
+                                                            <li><a href="#">Memorias</a></li>
+                                                            <li><a href="#">Pila</a></li>
+                                                            <li><a href="#">Pendrives</a></li>
+                                                            <li><a href="#">Soportes</a></li>
+                                                            <li><a href="#">Transmisor FM</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="single-product-gallery-left.html">Single Product Style</a>
+                                                    <li><a href="">Computacion</a>
                                                         <ul>
-                                                            <li><a href="single-product-carousel.html">Single Product Carousel</a></li>
-                                                            <li><a href="single-product-gallery-left.html">Single Product Gallery Left</a></li>
-                                                            <li><a href="single-product-gallery-right.html">Single Product Gallery Right</a></li>
-                                                            <li><a href="single-product-tab-style-top.html">Single Product Tab Style Top</a></li>
-                                                            <li><a href="single-product-tab-style-left.html">Single Product Tab Style Left</a></li>
-                                                            <li><a href="single-product-tab-style-right.html">Single Product Tab Style Right</a></li>
+                                                            <li><a href="#">Fuentes </a></li>
+                                                            <li><a href="#">Mouse</a></li>
+                                                            <li><a href="#">Teclado</a></li>
+                                                            <li><a href="#">Conectividad</a></li>
+                                                            <li><a href="#">Tablets/Accesorios de Tablets</a></li>
+                                                            <li><a href="#">Disco Rigido</a></li>
+                                                            <li><a href="#">Base de Notebook</a></li>
+                                                            <li><a href="#">Pad Mouse</a></li>
+                                                            <li><a href="#">Cartuchos</a></li>
+                                                            <li><a href="#">Cargadores</a></li>
+                                                            <li><a href="#">Toner</a></li>
+                                                            <li><a href="#">CD/DVD</a></li>
+                                                            <li><a href="#">Placas de Audio</a></li>
+                                                            <li><a href="#">Impresoras</a></li>
+                                                            <li><a href="#">Web Cam</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="single-product.html">Single Products</a>
+                                                    <li><a href="#">Fotografia</a>
                                                         <ul>
-                                                            <li><a href="single-product.html">Single Product</a></li>
-                                                            <li><a href="single-product-sale.html">Single Product Sale</a></li>
-                                                            <li><a href="single-product-group.html">Single Product Group</a></li>
-                                                            <li><a href="single-product-normal.html">Single Product Normal</a></li>
-                                                            <li><a href="single-product-affiliate.html">Single Product Affiliate</a></li>
+                                                            <li><a href="">Baterias de Camaras</a></li>
+                                                            <li><a href="">Filtros</a></li>
+                                                            <li><a href="">Tripodes</a></li>
+                                                            <li><a href="">Monopie</a></li>
+                                                            <li><a href="">Camaras Digitales</a></li>
+                                                            <li><a href="">Album de Fotos</a></li>
+                                                            <li><a href="">Anillo Adaptador</a></li>
+                                                            <li><a href="">Tapas de Objetivos/Cuerpos</a></li>
+                                                            <li><a href="">Pantallas Reflectoras</a></li>
+                                                            <li><a href="">SoftBox</a></li>
+                                                            <li><a href="">Mochilas Fotograficas</a></li>
+                                                            <li><a href="">Estuches Camaras</a></li>
+                                                            <li><a href="">Parasol</a></li>
+                                                            <li><a href="">Telescopios</a></li>
+                                                            <li><a href="">Disparador a Distancia</a></li>
+                                                            <li><a href="">PortaRetratos</a></li>
+                                                            <li><a href="">Flash/Iluminador Led</a></li>
+                                                            <li><a href="">Kit de Limpieza</a></li>
+                                                            <li><a href="">Lentes</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#">Cables</a>
+                                                        <ul>
+                                                            <li><a href="#">VGA</a></li>
+                                                            <li><a href="#">Red</a></li>
+                                                            <li><a href="#">USB Extensión</a></li>
+                                                            <li><a href="#">USB Tipo C</a></li>
+                                                            <li><a href="#">USB Iphone</a></li>
+                                                            <li><a href="#">USB OTG</a></li>
+                                                            <li><a href="#">USB Micro V8 - USB Mini V3</a></li>
+                                                            <li><a href="#">Óptico</a></li>
+                                                            <li><a href="#">HDMI</a></li>
+                                                            <li><a href="#">Plug / RCA</a></li>
+                                                            <li><a href="#">Power / Tensión</a></li>
+                                                            <li><a href="#">USB Impresora</a></li>
+                                                            <li><a href="#">Varios</a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="dropdown-holder"><a href="blog-left-sidebar.html">Blog</a>
-                                                <ul class="hb-dropdown">
-                                                    <li class="sub-dropdown-holder"><a href="blog-left-sidebar.html">Blog Grid View</a>
-                                                        <ul class="hb-dropdown hb-sub-dropdown">
+                                            <li class="megamenu-holder"><a href="#">Blog</a>
+                                                <ul class="megamenu hb-megamenu">
+                                                    <li ><a href="blog-left-sidebar.html">Blog Grid View</a>
+                                                        <ul >
                                                             <li><a href="blog-2-column.html">Blog 2 Column</a></li>
                                                             <li><a href="blog-3-column.html">Blog 3 Column</a></li>
                                                             <li><a href="blog-left-sidebar.html">Grid Left Sidebar</a></li>
@@ -399,10 +445,10 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="shop-left-sidebar.html">Smartwatch</a></li>
-                                            <li><a href="shop-left-sidebar.html">Accessories</a></li>
+                                            <li class="float-right"><a href="about-us.html">About Us</a></li>
+                                            <li class="float-right"><a href="contact.html">Contact</a></li>
+                                            <li class="float-right"><a href="shop-left-sidebar.html">Smartwatch</a></li>
+                                            <li class="float-right"><a href="shop-left-sidebar.html">Accessories</a></li>
                                         </ul>
                                     </nav>
                                 </div>
