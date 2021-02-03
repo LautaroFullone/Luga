@@ -45,9 +45,9 @@ return [
     |
     */
 
-    'logo' => '<b>Luga</b> | Distribuidora',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png', //la imagen del logo, lo q esta arriba a la izquierda
-    'logo_img_class' => 'brand-image img-circle elevation-3',
+    'logo' => '<b></b> ',
+    'logo_img' => 'vendor/adminlte/dist/img/logo.png', //la imagen del logo, lo q esta arriba a la izquierda
+    'logo_img_class' => 'rounded img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
     'logo_img_alt' => 'AdminLTE',
