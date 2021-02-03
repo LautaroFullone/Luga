@@ -121,7 +121,7 @@
                             <div class="col-lg-3">
                                 <div class="logo pb-sm-30 pb-xs-30">
                                     <a href="index.html">
-                                        <img src="images/menu/logo/1.jpg" alt="">
+                                        <img src="vendor/adminlte/dist/img/logo.png" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -284,7 +284,7 @@
                                 <div class="hb-menu">
                                     <nav>
                                         <ul>
-                                            <li class="dropdown-holder"><a href="index.html">Home</a>
+                                            <li class="holder"><a href="index.html">Home</a>
                                                 <ul class="hb-dropdown">
                                                     <li class="active"><a href="index.html">Home One</a></li>
                                                     <li><a href="index-2.html">Home Two</a></li>

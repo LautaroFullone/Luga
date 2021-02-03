@@ -239,12 +239,9 @@ return [
             'text' => 'Pagina Principal',
             'route' => 'home',
             'icon' => 'fas fa-home',
-            'label' => 'Nuevo',
-            'label_color' => 'warning',
-
         ],
         [
-            'text'  => 'pages',
+            'text'  => 'Blog',
             'route' => 'web.index',
             'icon'  => 'far fa-fw fa-file',
 
