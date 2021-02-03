@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'surname', 'tel', 'address', 'email', 'password',
     ];
 
     /**
@@ -37,6 +37,22 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    //trae todos los datos de contacto cuyo ID sea igual al ID del usuario
+    public function datos_contacto(){
+        return $this->hasMany('App\DatoContacto');
+    }
+
+    //trae el objeto dato_comercial cuyo ID sea igual al ID_USER del usuario
+    public function datos_comerciales(){
+        return $this->belongsTo('App\DatoComercial', 'user_id');
+    }
+
+    //trae el objeto dato_fiscal cuyo ID sea igual al ID_USER del usuario
+    public function datos_fiscales(){
+        return $this->belongsTo('App\DatoFiscal', 'user_id');
+    }
+
+
     public function adminlte_image()
     {
         return 'https://picsum.photos/300/300';
@@ -51,4 +67,6 @@ class User extends Authenticatable
     {
         return 'profile/username';
     }
+
+
 }
