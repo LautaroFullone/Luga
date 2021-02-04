@@ -61,7 +61,7 @@
                             <!-- Begin Header Logo Area -->
                             <div class="col-lg-3">
                                 <div class="logo pb-sm-30 pb-xs-30">
-                                    <a href="index.html">
+                                    <a href="index">
                                         <img src="vendor/adminlte/dist/img/logo.png" alt="">
                                     </a>
                                 </div>
@@ -424,10 +424,12 @@
                                     <div class="single-slide align-center-left  animation-style-01 bg-1">
                                         <div class="slider-progress"></div>
                                         <div class="slider-content">
-                                            <h5>Sale Offer <span>-20% Off</span> This Week</h5>
+                                            <!--<h5>Sale Offer <span>-20% Off</span> This Week</h5>
                                             <h2>Chamcham Galaxy S9 | S9+</h2>
-                                            <h3>Starting at <span>$1209.00</span></h3>
+                                            <h3>Starting at <span>$1209.00</span></h3>-->
+                                            <br><br>
                                             <div class="default-btn slide-btn">
+                                                <br><br><br><br><br><br><br><br>
                                                 <a class="links" href="shop-left-sidebar.html">Shopping Now</a>
                                             </div>
                                         </div>
@@ -467,12 +469,12 @@
                         <div class="col-lg-4 col-md-4 text-center pt-xs-30">
                             <div class="li-banner">
                                 <a href="#">
-                                    <img src="images/banner/1_1.jpg" alt="">
+                                    <img src="vendor/adminlte/dist/img/Cuarta.jpg" alt="">
                                 </a>
                             </div>
                             <div class="li-banner mt-15 mt-sm-30 mt-xs-30">
                                 <a href="#">
-                                    <img src="images/banner/1_2.jpg" alt="">
+                                    <img src="vendor/adminlte/dist/img/Quinta.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -3040,7 +3042,7 @@
                                 <!-- Begin Footer Logo Area -->
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-logo">
-                                        <img src="images/menu/logo/1.jpg" alt="Footer Logo">
+                                        <img src="vendor/adminlte/dist/img/logo.png" alt="Footer Logo">
                                         <p class="info">
                                             We are a team of designers and developers that create high quality HTML Template & Woocommerce, Shopify Theme.
                                         </p>
