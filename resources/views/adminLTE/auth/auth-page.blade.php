@@ -15,7 +15,7 @@
             @section('classes_body'){{ ($auth_type ?? 'login') . '-page' }}@stop
 
             @section('body')
-                <div class="{{ $auth_type ?? 'login' }}-box">
+                <div class="login-caja">
 
                     <span>{{-- Logo --}}
                         <div class="{{ $auth_type ?? 'login' }}-logo">
@@ -41,8 +41,8 @@
                                 </div>
 
                                 {{-- Card Body --}}
-                                <div
-                                    class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
+                                <div class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
+
                                     <form action="{{ $register_url }}" method="post">
                                         {{ csrf_field() }}
 
@@ -143,7 +143,7 @@
                                     </div>
 
                                     <div class="input-group mb-3">
-                                        <input type="text" name="celular" class="form-control" placeholder="Celular de Contacto">
+                                        <input type="text" name="celular_contacto" class="form-control" placeholder="Celular de Contacto">
                                         <div class="input-group-append">
                                             <div class="input-group-text">
                                                 <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -153,7 +153,7 @@
 
                                     {{-- Confirm password field --}}
                                     <div class="input-group mb-3">
-                                        <input type="text" name="telefono" class="form-control" placeholder="Telefono de Contacto">
+                                        <input type="text" name="telefono_contacto" class="form-control" placeholder="Telefono de Contacto">
                                         <div class="input-group-append">
                                             <div class="input-group-text">
                                                 <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -240,7 +240,7 @@
                                         </div>
 
                                         <div class="input-group mb-3">
-                                            <input type="text" name="codigo_postal" class="form-control" placeholder="Codigo Postal">
+                                            <input type="text" name="codigo_postal_fiscal" class="form-control" placeholder="Codigo Postal">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -250,7 +250,7 @@
 
                                         <div class="input-group mb-3">
 
-                                            <input type="text" name="piso" class="form-control" placeholder="Piso">
+                                            <input type="text" name="piso_fiscal" class="form-control" placeholder="Piso">
                                             <div style="padding-right: 10px"class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span
@@ -258,7 +258,7 @@
                                                 </div>
                                             </div>
 
-                                            <input style="padding-left: 10px" type="text" name="departamento" class="form-control" placeholder="Departamento">
+                                            <input style="padding-left: 10px" type="text" name="departamento_fiscal" class="form-control" placeholder="Departamento">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span
@@ -268,7 +268,7 @@
                                         </div>
 
                                         <div class="input-group mb-3">
-                                            <input type="text" name="localidad" class="form-control" placeholder="Localidad">
+                                            <input type="text" name="localidad_fiscal" class="form-control" placeholder="Localidad">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -277,7 +277,7 @@
                                         </div>
 
                                         <div class="input-group mb-3">
-                                            <input type="text" name="provincia" class="form-control" placeholder="Provincia">
+                                            <input type="text" name="provincia_fiscal" class="form-control" placeholder="Provincia">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -320,7 +320,6 @@
                                 {{-- Card Body --}}
                                 <div
                                     class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
-                                    {{-- @yield('auth_body') --}}
 
                                     <form action="{{ $register_url }}" method="post">
                                         {{ csrf_field() }}
@@ -336,7 +335,7 @@
                                         </div>
 
                                         <div class="input-group mb-3">
-                                        <input type="text" name="domicilio_envio" class="form-control" placeholder="Domicilio de Envio">
+                                        <input type="text" name="domicilio_comercial" class="form-control" placeholder="Domicilio de Envio">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -345,25 +344,7 @@
                                         </div>
 
                                         <div class="input-group mb-3">
-                                            <input type="text" name="codigo_postal" class="form-control" placeholder="Codigo Postal">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-3">
-                                            <input type="text" name="domicilio_fiscal" class="form-control" placeholder="Domicilio Fiscal">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-3">
-                                            <input type="text" name="codigo_postal" class="form-control" placeholder="Codigo Postal">
+                                            <input type="text" name="codigo_postal_comercial" class="form-control" placeholder="Codigo Postal">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -373,7 +354,7 @@
 
                                         <div class="input-group mb-3">
 
-                                            <input type="text" name="piso" class="form-control" placeholder="Piso">
+                                            <input type="text" name="piso_comercial" class="form-control" placeholder="Piso">
                                             <div style="padding-right: 10px"class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span
@@ -381,7 +362,7 @@
                                                 </div>
                                             </div>
 
-                                            <input style="padding-left: 10px" type="text" name="departamento" class="form-control" placeholder="Departamento">
+                                            <input style="padding-left: 10px" type="text" name="departamento_comercial" class="form-control" placeholder="Departamento">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span
@@ -391,7 +372,7 @@
                                         </div>
 
                                         <div class="input-group mb-3">
-                                            <input type="text" name="localidad" class="form-control" placeholder="Localidad">
+                                            <input type="text" name="localidad_comercial" class="form-control" placeholder="Localidad">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -400,7 +381,43 @@
                                         </div>
 
                                         <div class="input-group mb-3">
-                                            <input type="text" name="provincia" class="form-control" placeholder="Provincia">
+                                            <input type="text" name="provincia_comercial" class="form-control" placeholder="Provincia">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-3">
+                                            <input type="text" name="telefono" class="form-control" placeholder="Telefono Comercial">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-3">
+                                            <input type="text" name="fax" class="form-control" placeholder="Fax">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-3">
+                                            <input type="text" name="email_comercial" class="form-control" placeholder="Email Comercial">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-3">
+                                            <input type="text" name="expreso_envio" class="form-control" placeholder="Expreso de Envio">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -430,128 +447,7 @@
                         </div>
 
 
-                        <div class="row">
 
-                            <form action="/registrarse" id="UserRegisterForm" method="post" accept-charset="utf-8" class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
-                                <div style="display:none;"><input type="hidden" name="_method" value="POST" /></div>
-                                <div class="row">
-                                    <div class="col-md-4" style="background-color:#f9f9f9;padding:10px 20px 30px 20px">
-                                        <h2>Datos del usuario</h2>
-                                        <div class="input-group mb-3">
-                                            <label  for="UserEmail">Email</label>
-
-                                            <input id="email" type="email" name="email" class="form-control {{ $errors->has('email') ? 'is-invalid' : '' }}"
-                                            placeholder="{{ __('adminlte::adminlte.email') }}"/>
-
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="input password"><label for="UserPassword">Contraseña</label><input
-                                                name="data[User][password]" required="required" class="form-control" type="password"
-                                                id="UserPassword" /></div>
-                                        <h2>Datos de contacto</h2>
-                                        <div class="input text"><label for="UserContact">Contacto</label><input
-                                                name="data[User][contact]" required="required" class="form-control" maxlength="200"
-                                                type="text" id="UserContact" /></div>
-                                        <div class="input tel"><label for="UserPhone">Telefono</label><input name="data[User][phone]"
-                                                required="required" class="form-control" maxlength="100" type="tel" id="UserPhone" />
-                                        </div>
-                                        <div class="input text"><label for="UserCellphone">Celular</label><input
-                                                name="data[User][cellphone]" class="form-control" maxlength="100" type="text"
-                                                id="UserCellphone" /></div>
-
-                                    </div>
-                                    <div class="col-md-4" style="background-color:#f0f0f0;padding:10px 20px 30px 20px">
-                                        <h2>Datos fiscales</h2>
-                                        <div class="input text"><label for="UserBusinessName">Razon Social</label><input
-                                                name="data[User][business_name]" required="required" class="form-control"
-                                                maxlength="300" type="text" id="UserBusinessName" /></div>
-                                        <div class="input text"><label for="UserCuitnumber">CUIT</label><input
-                                                name="data[User][cuitnumber]" required="required" class="form-control" maxlength="50"
-                                                type="text" id="UserCuitnumber" /></div>
-                                        <div class="input text"><label for="UserCondition">Condición</label><input
-                                                name="data[User][condition]" required="required" class="form-control" maxlength="200"
-                                                type="text" id="UserCondition" /></div>
-                                        <div class="input text"><label for="UserAddress">Domicilio fiscal</label><input
-                                                name="data[User][address]" required="required" class="form-control" maxlength="200"
-                                                type="text" id="UserAddress" /></div>
-                                        <div class="input text"><label for="UserPostcode">Codigo Postal</label><input
-                                                name="data[User][postcode]" required="required" class="form-control" maxlength="50"
-                                                type="text" id="UserPostcode" /></div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="input text"><label for="UserFloor">Piso</label><input
-                                                        name="data[User][floor]" class="form-control" maxlength="50" type="text"
-                                                        id="UserFloor" /></div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="input text"><label for="UserApartment">Departamento</label><input
-                                                        name="data[User][apartment]" class="form-control" maxlength="50" type="text"
-                                                        id="UserApartment" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="input text"><label for="UserLocalidad">Localidad</label><input
-                                                name="data[User][localidad]" required="required" class="form-control" maxlength="200"
-                                                type="text" id="UserLocalidad" /></div>
-                                        <div class="input text"><label for="UserProvincia">Provincia</label><input
-                                                name="data[User][provincia]" required="required" class="form-control" maxlength="200"
-                                                type="text" id="UserProvincia" /></div>
-                                    </div>
-                                    <div class="col-md-4" style="background-color:#f9f9f9;padding:10px 20px 30px 20px">
-                                        <h2>Datos comerciales</h2>
-                                        <div class="input text"><label for="UserComercialName">Nombre comercial</label><input
-                                                name="data[User][comercial_name]" required="required" class="form-control"
-                                                maxlength="200" type="text" id="UserComercialName" /></div>
-                                        <div class="input text"><label for="UserShipmentAddress">Domicilio de envío</label><input
-                                                name="data[User][shipment_address]" required="required" class="form-control"
-                                                maxlength="200" type="text" id="UserShipmentAddress" /></div>
-                                        <div class="input number"><label for="UserComercialPostcode">Codigo Postal</label><input
-                                                name="data[User][comercial_postcode]" required="required" class="form-control"
-                                                type="number" id="UserComercialPostcode" /></div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="input text"><label for="UserComercialFloor">Piso</label><input
-                                                        name="data[User][comercial_floor]" class="form-control" maxlength="200"
-                                                        type="text" id="UserComercialFloor" /></div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="input text"><label for="UserComercialApartment">Departamento</label><input
-                                                        name="data[User][comercial_apartment]" class="form-control" maxlength="200"
-                                                        type="text" id="UserComercialApartment" /></div>
-                                            </div>
-                                        </div>
-                                        <div class="input text"><label for="UserComercialLocalidad">Localidad</label><input
-                                                name="data[User][comercial_localidad]" required="required" class="form-control"
-                                                maxlength="200" type="text" id="UserComercialLocalidad" /></div>
-                                        <div class="input text"><label for="UserComercialProvincia">Provincia</label><input
-                                                name="data[User][comercial_provincia]" required="required" class="form-control"
-                                                maxlength="200" type="text" id="UserComercialProvincia" /></div>
-                                        <div class="input text"><label for="UserComercialPhone">Telefono</label><input
-                                                name="data[User][comercial_phone]" required="required" class="form-control"
-                                                maxlength="200" type="text" id="UserComercialPhone" /></div>
-                                        <div class="input text"><label for="UserComercialFax">Fax</label><input
-                                                name="data[User][comercial_fax]" class="form-control" maxlength="200" type="text"
-                                                id="UserComercialFax" /></div>
-                                        <div class="input text"><label for="UserComercialEmail">Email</label><input
-                                                name="data[User][comercial_email]" class="form-control" maxlength="200" type="text"
-                                                id="UserComercialEmail" /></div>
-                                        <div class="input text"><label for="UserComercialShipment">Expreso de envío</label><input
-                                                name="data[User][comercial_shipment]" class="form-control" maxlength="200" type="text"
-                                                id="UserComercialShipment" /></div><input type="hidden" name="data[User][profile_id]"
-                                            value="1" id="UserProfileId" /><input type="hidden" name="data[User][active]" value="0"
-                                            id="UserActive" />
-                                    </div>
-                                </div>
-                                <div class="pull-right">
-                                    <div class="submit"><input class="btn btn-connect-primary" type="submit" value="Registrarse" />
-                                    </div>
-                            </form>
-                        </div>
                     </div>
 
 

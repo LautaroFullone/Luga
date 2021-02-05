@@ -1,4 +1,4 @@
-@extends('adminlte::auth.login')
+@extends('adminLTE.auth.login')
 
 @section('content')
 <div class="container">
