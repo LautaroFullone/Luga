@@ -19546,14 +19546,14 @@ html.maximized-card {
     -ms-flex-pack: center;
     justify-content: center;
 }
-.login-box,
-.register-box {
+.login-box{
     width: 400px;
 }
 
-.login-caja{
+.register-box {
     width: 90%;
 }
+
 
 
 @media (max-width: 576px) {
