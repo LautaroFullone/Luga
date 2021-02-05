@@ -15,21 +15,10 @@
             @section('classes_body'){{ ($auth_type ?? 'login') . '-page' }}@stop
 
             @section('body')
-                <div class="login-caja">
 
-                    {{-- Logo --}}
-
-                    <span class="float-right">
-                        <div class="{{ $auth_type ?? 'login' }}-logo">
-                            <a href="{{ $dashboard_url }}">
-                                <img src="">
-                            </a>
-                        </div>
-                    </span>
 
                     <h1 style="text-align:center; ">Registro de Usuario</h1>
                     <hr>
-
 
                     <form action="{{ $register_url }}" method="post">
                         {{ csrf_field() }}
@@ -433,7 +422,7 @@
                                 </div>
                             </div>
                     </form>
-                </div>
+
 
                 </div>
                 </div>
