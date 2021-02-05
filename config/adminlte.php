@@ -45,8 +45,8 @@ return [
     |
     */
 
-    'logo' => '<b></b> ',
-    'logo_img' => 'vendor/adminlte/dist/img/logo.png', //la imagen del logo, lo q esta arriba a la izquierda
+    'logo' => '<b>Luga | </b>Distribuidora ',
+    'logo_img' => 'images/web/loguito2.png', //la imagen del logo, lo q esta arriba a la izquierda
     'logo_img_class' => 'rounded img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -258,42 +258,10 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text'    => 'multilevel',
+            'text'    => 'Carro',
+            'url'=> 'carro',
             'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
+
         ],
         ['header' => 'labels'],
         [
