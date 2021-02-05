@@ -315,7 +315,7 @@ textarea {
 button.li-btn {
 	border: none;
 	background: #892f28;
-	color: #242424;
+	color: #c9c8c8;
 	font-size: 20px;
 	width: 45px;
 	border-radius: 0 2px 2px 0;
@@ -328,16 +328,16 @@ button.li-btn {
 	cursor: pointer;
 }
 button.li-btn:hover {
-	background: #333333;
+	background: #5c211c;
 	color: #ffffff;
 }
 a.links,
 a.links-2,
 a.review-links {
 	background: #892f28 none repeat scroll 0 0;
-	color: #242424;
+	color: #ffff;
 	display: inline-block;
-	font-family: Montserrat;
+	font-family: Rubik, sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	height: 50px;
@@ -350,7 +350,7 @@ a.review-links {
 }
 a.links:hover,
 a.links-2:hover {
-	background: #333333 none repeat scroll 0 0;
+	background: #5c211c none repeat scroll 0 0;
 	color: #fff;
 }
 a.review-links {
@@ -1526,8 +1526,8 @@ textarea:focus {
 }
 .hm-minicart-trigger {
 		border-radius: 2px;
-		background: #e80f0f;
-		color: #fff;
+		background: white;
+		color: black;
 		height: 45px;
 		cursor: pointer;
 		display: block;
@@ -1567,7 +1567,7 @@ textarea:focus {
 		line-height: 26px;
 		font-size: 12px;
 		font-weight: 400;
-		color: #242424;
+		color: #c9c8c8;
 		background: #892f28;
 		text-align: center;
 		border-radius: 100%;
@@ -1749,7 +1749,7 @@ textarea:focus {
 }
 .hb-menu nav > ul > li > a {
 	display: flex;
-	color: #242424;
+	color: #c9c8c8;
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 35px;
@@ -1954,8 +1954,7 @@ textarea:focus {
 		transform: scaleY(0);
 		transform-origin: 0 0 0;
 		visibility: hidden;
-		transition: all 0.3s ease-in-out 0s;
-		box-shadow: 0 1px 2px 2px rgba(0,0,0,0.2);
+		box-shadow: 0 1px 2px 2px rgba(134, 27, 27, 0.2);
 		width: 220px;
 		z-index: 99;
 		border-radius: 3px;
@@ -2189,7 +2188,7 @@ textarea:focus {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .product-image > span.sticker {
-	background: green;
+	background: #892f28;
 	border-radius: 100%;
 	color: #fff;
 	right: 15px;
