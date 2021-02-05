@@ -451,18 +451,11 @@ textarea:focus {
 /*----------------------------------------*/
 /*Home One | Slider Background Image*/
 .bg-1, .bg-2, .bg-3 {
-	background-image: url("vendor/adminlte/dist/img/Primera.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	min-height: 475px;
 	width: 100%;
-}
-.bg-2 {
-	background-image: url("vendor/adminlte/dist/img/Segunda.jpg");
-}
-.bg-3 {
-	background-image: url("vendor/adminlte/dist/img/Tercera.jpg");
 }
 
 /*Home Two | Slider Background Image*/

@@ -62,7 +62,7 @@
                             <div class="col-lg-3">
                                 <div class="logo pb-sm-30 pb-xs-30">
                                     <a href="index">
-                                        <img src="vendor/adminlte/dist/img/logo.png" alt="">
+                                        <img src="images/web/logo.png" alt="Footer Logo">
                                     </a>
                                 </div>
                             </div>
@@ -422,6 +422,7 @@
                                 <div class="slider-active owl-carousel">
                                     <!-- Begin Single Slide Area -->
                                     <div class="single-slide align-center-left  animation-style-01 bg-1">
+                                        <img src="images/web//Primera.jpg" alt="">
                                         <div class="slider-progress"></div>
                                         <div class="slider-content">
                                             <!--<h5>Sale Offer <span>-20% Off</span> This Week</h5>
@@ -437,6 +438,7 @@
                                     <!-- Single Slide Area End Here -->
                                     <!-- Begin Single Slide Area -->
                                     <div class="single-slide align-center-left animation-style-02 bg-2">
+                                        <img src="images/web/Segunda.jpg" alt="">
                                         <div class="slider-progress"></div>
                                         <div class="slider-content">
                                             <h5>Sale Offer <span>Black Friday</span> This Week</h5>
@@ -450,6 +452,7 @@
                                     <!-- Single Slide Area End Here -->
                                     <!-- Begin Single Slide Area -->
                                     <div class="single-slide align-center-left animation-style-01 bg-3">
+                                        <img src="images/web/Tercera.jpg" alt="">
                                         <div class="slider-progress"></div>
                                         <div class="slider-content">
                                             <h5>Sale Offer <span>-10% Off</span> This Week</h5>
@@ -1312,6 +1315,7 @@
                 </div>
             </div>
             <!-- Li's Static Banner Area End Here -->
+
             <!-- Begin Li's Laptop Product Area -->
             <section class="product-area li-laptop-product pt-60 pb-45">
                 <div class="container">
@@ -1320,7 +1324,7 @@
                         <div class="col-lg-12">
                             <div class="li-section-title">
                                 <h2>
-                                    <span>Laptop</span>
+                                    <span>Memorias</span>
                                 </h2>
                                 <ul class="li-sub-category-list">
                                     <li class="active"><a href="shop-left-sidebar.html">Prime Video</a></li>
@@ -3042,7 +3046,7 @@
                                 <!-- Begin Footer Logo Area -->
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-logo">
-                                        <img src="vendor/adminlte/dist/img/logo.png" alt="Footer Logo">
+                                        <img src="img/web/logo.png" alt="Footer Logo">
                                         <p class="info">
                                             We are a team of designers and developers that create high quality HTML Template & Woocommerce, Shopify Theme.
                                         </p>
