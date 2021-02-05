@@ -150,6 +150,139 @@
                                 </div>
                             </div>
 
+                            <div class="col" style="margin-left: 5px; margin-right: 5px;">
+                                {{-- Card Box --}}
+                                <div class="card {{ config('adminlte.classes_auth_card', 'card-outline card-primary') }}">
+
+                                    {{-- Card Header --}}
+                                    <div class="card-header {{ config('adminlte.classes_auth_header', '') }}">
+                                        <h3 class="card-title float-none text-center">
+                                            Datos Comerciales
+                                        </h3>
+                                    </div>
+
+                                    {{-- Card Body --}}
+                                    <div
+                                        class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
+
+                                        {{-- Email field --}}
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="nombre_comercial" class="form-control"
+                                                placeholder="Nombre Comercial">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-tags {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="domicilio_comercial" class="form-control"
+                                                placeholder="Domicilio Comercial">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-store-alt {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="codigo_postal_comercial" class="form-control"
+                                                placeholder="Codigo Postal">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-map-pin"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+
+                                            <input type="text" name="piso_comercial" class="form-control" placeholder="Piso">
+                                            <div style="padding-right: 10px" class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-building {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+
+                                            <input style="padding-left: 10px" type="text" name="departamento_comercial"
+                                                class="form-control" placeholder="Departamento">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-door-closed {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="localidad_comercial" class="form-control" placeholder="Localidad">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-map-marked-alt {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="provincia_comercial" class="form-control" placeholder="Provincia">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-globe-americas {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="telefono" class="form-control" placeholder="Telefono Comercial">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-phone-alt {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="fax" class="form-control" placeholder="Fax">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-fax {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="email_comercial" class="form-control"
+                                                placeholder="Email Comercial">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="expreso_envio" class="form-control" placeholder="Expreso de Envio">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span
+                                                        class="fas fa-shipping-fast {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="col">
                                 {{-- Card Box --}}
                                 <div class="card {{ config('adminlte.classes_auth_card', 'card-outline card-primary') }}">
@@ -289,138 +422,7 @@
                                 </div>
                             </div>
 
-                            <div class="col">
-                                {{-- Card Box --}}
-                                <div class="card {{ config('adminlte.classes_auth_card', 'card-outline card-primary') }}">
 
-                                    {{-- Card Header --}}
-                                    <div class="card-header {{ config('adminlte.classes_auth_header', '') }}">
-                                        <h3 class="card-title float-none text-center">
-                                            Datos Comerciales
-                                        </h3>
-                                    </div>
-
-                                    {{-- Card Body --}}
-                                    <div
-                                        class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
-
-                                        {{-- Email field --}}
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="nombre_comercial" class="form-control"
-                                                placeholder="Nombre Comercial">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-tags {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="domicilio_comercial" class="form-control"
-                                                placeholder="Domicilio Comercial">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-store-alt {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="codigo_postal_comercial" class="form-control"
-                                                placeholder="Codigo Postal">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-map-pin"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-
-                                            <input type="text" name="piso_comercial" class="form-control" placeholder="Piso">
-                                            <div style="padding-right: 10px" class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-building {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-
-                                            <input style="padding-left: 10px" type="text" name="departamento_comercial"
-                                                class="form-control" placeholder="Departamento">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-door-closed {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="localidad_comercial" class="form-control" placeholder="Localidad">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-map-marked-alt {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="provincia_comercial" class="form-control" placeholder="Provincia">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-globe-americas {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="telefono" class="form-control" placeholder="Telefono Comercial">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-phone-alt {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="fax" class="form-control" placeholder="Fax">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-fax {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="email_comercial" class="form-control"
-                                                placeholder="Email Comercial">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-envelope {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="input-group mb-2">
-                                            <input type="text" name="expreso_envio" class="form-control" placeholder="Expreso de Envio">
-                                            <div class="input-group-append">
-                                                <div class="input-group-text">
-                                                    <span
-                                                        class="fas fa-shipping-fast {{ config('adminlte.classes_auth_icon', '') }}"></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                     </form>
 
 

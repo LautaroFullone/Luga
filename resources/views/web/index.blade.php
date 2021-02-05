@@ -62,7 +62,7 @@
                             <div class="col-lg-3">
                                 <div class="logo pb-sm-30 pb-xs-30">
                                     <a href="index">
-                                        <img src="images/web/logo.png" alt="Footer Logo">
+                                        <img src="images/web/logo.png" alt="Header Logo">
                                     </a>
                                 </div>
                             </div>
@@ -72,78 +72,21 @@
                                 <!-- Begin Header Middle Searchbox Area -->
                                 <form action="#" class="hm-searchbox">
                                     <select class="nice-select select-search-category">
-                                        <option value="0">All</option>
-                                        <option value="10">Laptops</option>
-                                        <option value="17">- -  Prime Video</option>
-                                        <option value="20">- - - -  All Videos</option>
-                                        <option value="21">- - - -  Blouses</option>
-                                        <option value="22">- - - -  Evening Dresses</option>
-                                        <option value="23">- - - -  Summer Dresses</option>
-                                        <option value="24">- - - -  T-shirts</option>
-                                        <option value="25">- - - -  Rent or Buy</option>
-                                        <option value="26">- - - -  Your Watchlist</option>
-                                        <option value="27">- - - -  Watch Anywhere</option>
-                                        <option value="28">- - - -  Getting Started</option>
-                                        <option value="18">- - - -  Computers</option>
-                                        <option value="29">- - - -  More to Explore</option>
-                                        <option value="30">- - - -  TV &amp; Video</option>
-                                        <option value="31">- - - -  Audio &amp; Theater</option>
-                                        <option value="32">- - - -  Camera, Photo </option>
-                                        <option value="33">- - - -  Cell Phones</option>
-                                        <option value="34">- - - -  Headphones</option>
-                                        <option value="35">- - - -  Video Games</option>
-                                        <option value="36">- - - -  Wireless Speakers</option>
-                                        <option value="19">- - - -  Electronics</option>
-                                        <option value="37">- - - -  Amazon Home</option>
-                                        <option value="38">- - - -  Kitchen &amp; Dining</option>
-                                        <option value="39">- - - -  Furniture</option>
-                                        <option value="40">- - - -  Bed &amp; Bath</option>
-                                        <option value="41">- - - -  Appliances</option>
-                                        <option value="11">TV &amp; Audio</option>
-                                        <option value="42">- -  Chamcham</option>
-                                        <option value="45">- - - -  Office</option>
-                                        <option value="47">- - - -  Gaming</option>
-                                        <option value="48">- - - -  Chromebook</option>
-                                        <option value="49">- - - -  Refurbished</option>
-                                        <option value="50">- - - -  Touchscreen</option>
-                                        <option value="51">- - - -  Ultrabooks</option>
-                                        <option value="52">- - - -  Blouses</option>
-                                        <option value="43">- -  Sanai</option>
-                                        <option value="53">- - - -  Hard Drives</option>
-                                        <option value="54">- - - -  Graphic Cards</option>
-                                        <option value="55">- - - -  Processors (CPU)</option>
-                                        <option value="56">- - - -  Memory</option>
-                                        <option value="57">- - - -  Motherboards</option>
-                                        <option value="58">- - - -  Fans &amp; Cooling</option>
-                                        <option value="59">- - - -  CD/DVD Drives</option>
-                                        <option value="44">- -  Meito</option>
-                                        <option value="60">- - - -  Sound Cards</option>
-                                        <option value="61">- - - -  Cases &amp; Towers</option>
-                                        <option value="62">- - - -  Casual Dresses</option>
-                                        <option value="63">- - - -  Evening Dresses</option>
-                                        <option value="64">- - - -  T-shirts</option>
-                                        <option value="65">- - - -  Tops</option>
-                                        <option value="12">Smartphone</option>
-                                        <option value="66">- -  Camera Accessories</option>
-                                        <option value="68">- - - -  Octa Core</option>
-                                        <option value="69">- - - -  Quad Core</option>
-                                        <option value="70">- - - -  Dual Core</option>
-                                        <option value="71">- - - -  7.0 Screen</option>
-                                        <option value="72">- - - -  9.0 Screen</option>
-                                        <option value="73">- - - -  Bags &amp; Cases</option>
-                                        <option value="67">- -  XailStation</option>
-                                        <option value="74">- - - -  Batteries</option>
-                                        <option value="75">- - - -  Microphones</option>
-                                        <option value="76">- - - -  Stabilizers</option>
-                                        <option value="77">- - - -  Video Tapes</option>
-                                        <option value="78">- - - -  Memory Card Readers</option>
-                                        <option value="79">- - - -  Tripods</option>
-                                        <option value="13">Cameras</option>
-                                        <option value="14">headphone</option>
-                                        <option value="15">Smartwatch</option>
-                                        <option value="16">Accessories</option>
+                                        <option value="0">Categorias</option>
+                                        <option value="1">Telefonia</option>
+                                        <option value="2">Juego</option>
+                                        <option value="3">Computacion</option>
+                                        <option value="4">Fotografia</option>
+                                        <option value="5">Audio</option>
+                                        <option value="6">Accesorios</option>
+                                        <option value="7">Cables</option>
+                                        <option value="8">GPS</option>
+                                        <option value="9">Iluminacion</option>
+                                        <option value="10">Seguridad</option>
+                                        <option value="11">Varios</option>
                                     </select>
-                                    <input type="text" placeholder="Enter your search key ...">
+
+                                    <input type="text" placeholder="Ingrese producto para buscar ...">
                                     <button class="li-btn" type="submit"><i class="fa fa-search"></i></button>
                                 </form>
                                 <!-- Header Middle Searchbox Area End Here -->
@@ -1636,13 +1579,13 @@
                     <div class="row">
                         <!-- Begin Li's Tab Menu Area -->
                         <div class="col-lg-12">
-                            <div class="li-product-tab li-trending-product-tab">
+                            <div class="li-section-title">
                                 <h2>
                                     <span>Fundas para Celulares</span>
                                 </h2>
-
                             </div>
                             <!-- Begin Li's Tab Menu Content Area -->
+
                             <div class="tab-content li-tab-content li-trending-product-content">
                                 <div id="home1" class="tab-pane show fade in active">
                                     <div class="row">
@@ -1854,13 +1797,12 @@
                                                         <a href="single-product.html">
                                                             <img src="images/web/funda6.jpg" alt="Li's Product Image">
                                                         </a>
-                                                        <span class="sticker">New</span>
                                                     </div>
                                                     <div class="product_desc">
                                                         <div class="product_desc_info">
                                                             <div class="product-review">
                                                                 <h5 class="manufacturer">
-                                                                    <a href="shop-left-sidebar.html">Studio Design</a>
+                                                                    <a href="shop-left-sidebar.html">Fundas</a>
                                                                 </h5>
                                                                 <div class="rating-box">
                                                                     <ul class="rating">
@@ -1872,11 +1814,9 @@
                                                                     </ul>
                                                                 </div>
                                                             </div>
-                                                            <h4><a class="product_name" href="single-product.html">Mug Today is a good day</a></h4>
+                                                            <h4><a class="product_name" href="single-product.html">TPU Samsung A01 Transparente Rigido</a></h4>
                                                             <div class="price-box">
-                                                                <span class="new-price new-price-2">$71.80</span>
-                                                                <span class="old-price">$77.22</span>
-                                                                <span class="discount-percentage">-7%</span>
+                                                                <span class="new-price new-price-2">$166,52</span>
                                                             </div>
                                                         </div>
                                                         <div class="add-actions">
@@ -2417,281 +2357,7 @@
                 </div>
             </section>
 
-            <!-- Li's Trending Product Area End Here -->
-            <!-- Begin Li's Trendding Products Area -->
-            <section class="product-area li-laptop-product li-trendding-products best-sellers pb-45">
-                <div class="container">
-                    <div class="row">
-                        <!-- Begin Li's Section Area -->
-                        <div class="col-lg-12">
-                            <div class="li-section-title">
-                                <h2>
-                                    <span>Bestsellers</span>
-                                </h2>
-                            </div>
-                            <div class="row">
-                                <div class="product-active owl-carousel">
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/product/large-size/11.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Graphic Corner</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium dolorem1</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price">$46.80</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Studio Design</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is a good day</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price new-price-2">$71.80</span>
-                                                        <span class="old-price">$77.22</span>
-                                                        <span class="discount-percentage">-7%</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/product/large-size/9.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Graphic Corner</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium dolorem1</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price">$46.80</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Studio Design</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is a good day</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price new-price-2">$71.80</span>
-                                                        <span class="old-price">$77.22</span>
-                                                        <span class="discount-percentage">-7%</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/product/large-size/7.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Graphic Corner</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Accusantium dolorem1</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price">$46.80</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/product/large-size/5.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Studio Design</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Mug Today is a good day</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price new-price-2">$71.80</span>
-                                                        <span class="old-price">$77.22</span>
-                                                        <span class="discount-percentage">-7%</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Li's Section Area End Here -->
-                    </div>
-                </div>
-            </section>
-            <!-- Li's Trendding Products Area End Here -->
-            <!-- Begin Footer Area -->
+
             <div class="footer">
                 <!-- Begin Footer Static Top Area -->
                 <div class="footer-static-top">
@@ -2706,8 +2372,8 @@
                                             <img src="images/shipping-icon/1.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
-                                            <h2>Free Delivery</h2>
-                                            <p>And free returns. See checkout for delivery dates.</p>
+                                            <h2>Envios por Zona</h2>
+                                            <p>Llevamos su compra en nuestra web hacia su puerta.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2719,8 +2385,8 @@
                                             <img src="images/shipping-icon/2.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
-                                            <h2>Safe Payment</h2>
-                                            <p>Pay with the world's most popular and secure payment methods.</p>
+                                            <h2>Pague con Seguridad</h2>
+                                            <p>Realice sus pagos con los metodos mas utilizados y seguros en todo el mundo.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2732,8 +2398,8 @@
                                             <img src="images/shipping-icon/3.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
-                                            <h2>Shop with Confidence</h2>
-                                            <p>Our Buyer Protection covers your purchasefrom click to delivery.</p>
+                                            <h2>Compre con Confianza</h2>
+                                            <p>Nuestra proteccion al comprador cubre su compra desde el primer click, hasta su envio.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2745,8 +2411,8 @@
                                             <img src="images/shipping-icon/4.png" alt="Shipping Icon">
                                         </div>
                                         <div class="shipping-text">
-                                            <h2>24/7 Help Center</h2>
-                                            <p>Have a question? Call a Specialist or chat online.</p>
+                                            <h2>Centro de Atencion</h2>
+                                            <p>¿Tiene alguna consulta? No dude en escribirnos, un especialista lo atenderá.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2757,6 +2423,7 @@
                     </div>
                 </div>
                 <!-- Footer Static Top Area End Here -->
+
                 <!-- Begin Footer Static Middle Area -->
                 <div class="footer-static-middle">
                     <div class="container">
@@ -2765,19 +2432,19 @@
                                 <!-- Begin Footer Logo Area -->
                                 <div class="col-lg-4 col-md-6">
                                     <div class="footer-logo">
-                                        <img src="img/web/logo.png" alt="Footer Logo">
+                                        <img src="images/web/logo.png" alt="Footer Logo">
                                         <p class="info">
                                             We are a team of designers and developers that create high quality HTML Template & Woocommerce, Shopify Theme.
                                         </p>
                                     </div>
                                     <ul class="des">
                                         <li>
-                                            <span>Address: </span>
-                                            6688Princess Road, London, Greater London BAS 23JK, UK
+                                            <span>Dirección: </span>
+                                            Almirante Brown 3218, Mar del Plata.
                                         </li>
                                         <li>
-                                            <span>Phone: </span>
-                                            <a href="#">(+123) 123 321 345</a>
+                                            <span>Teléfono: </span>
+                                            <a href="#">(223) 472-6956</a>
                                         </li>
                                         <li>
                                             <span>Email: </span>
@@ -2833,7 +2500,7 @@
                                                 </a>
                                             </li>
                                             <li class="facebook">
-                                                <a href="https://www.facebook.com/" data-toggle="tooltip" target="_blank" title="Facebook">
+                                                <a href="https://www.facebook.com/LUGA-Distribuidora-477220916429697/" data-toggle="tooltip" target="_blank" title="Facebook">
                                                     <i class="fa fa-facebook"></i>
                                                 </a>
                                             </li>
@@ -2870,54 +2537,11 @@
                 </div>
                 <!-- Footer Static Middle Area End Here -->
                 <!-- Begin Footer Static Bottom Area -->
-                <div class="footer-static-bottom pt-55 pb-55">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <!-- Begin Footer Links Area -->
-                                <div class="footer-links">
-                                    <ul>
-                                        <li><a href="#">Online Shopping</a></li>
-                                        <li><a href="#">Promotions</a></li>
-                                        <li><a href="#">My Orders</a></li>
-                                        <li><a href="#">Help</a></li>
-                                        <li><a href="#">Customer Service</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">Most Populars</a></li>
-                                        <li><a href="#">New Arrivals</a></li>
-                                        <li><a href="#">Special Products</a></li>
-                                        <li><a href="#">Manufacturers</a></li>
-                                        <li><a href="#">Our Stores</a></li>
-                                        <li><a href="#">Shipping</a></li>
-                                        <li><a href="#">Payments</a></li>
-                                        <li><a href="#">Warantee</a></li>
-                                        <li><a href="#">Refunds</a></li>
-                                        <li><a href="#">Checkout</a></li>
-                                        <li><a href="#">Discount</a></li>
-                                        <li><a href="#">Refunds</a></li>
-                                        <li><a href="#">Policy Shipping</a></li>
-                                    </ul>
-                                </div>
-                                <!-- Footer Links Area End Here -->
-                                <!-- Begin Footer Payment Area -->
-                                <div class="copyright text-center">
-                                    <a href="#">
-                                        <img src="images/payment/1.png" alt="">
-                                    </a>
-                                </div>
-                                <!-- Footer Payment Area End Here -->
-                                <!-- Begin Copyright Area -->
-                                <div class="copyright text-center pt-25">
-                                    <span><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></span>
-                                </div>
-                                <!-- Copyright Area End Here -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Static Bottom Area End Here -->
+
             </div>
             <!-- Footer Area End Here -->
+
+
             <!-- Begin Quick View | Modal Area -->
             <div class="modal fade modal-wrapper" id="exampleModalCenter" >
                 <div class="modal-dialog modal-dialog-centered" role="document">
