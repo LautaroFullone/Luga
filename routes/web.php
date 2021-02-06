@@ -28,6 +28,6 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/index', 'WebController@index')->name('web.index');
 Route::get('/carro','WebController@ShowCarro')->name('web.carro');
-
+Route::get('/perfil','WebController@ShowPerfil')->name('web.perfil');
 
 
