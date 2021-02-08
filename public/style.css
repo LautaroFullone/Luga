@@ -450,6 +450,7 @@ textarea:focus {
 /*  1.8 Background Variation Set
 /*----------------------------------------*/
 /*Home One | Slider Background Image*/
+
 .bg-1, .bg-2, .bg-3 {
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -473,7 +474,7 @@ textarea:focus {
 .bg-6 {
 	background-image: url(images/slider/6.jpg);
 }
-/*Home Three | Slider Background Image*/
+/*Home e | Slider Background Image*/
 .bg-7, .bg-8, .bg-9 {
 	background-image: url(images/slider/7.jpg);
 	background-repeat: no-repeat;

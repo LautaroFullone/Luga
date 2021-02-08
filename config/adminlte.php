@@ -16,7 +16,7 @@ return [
 
     'title' => '',
     'title_prefix' => 'Luga |',
-    'title_postfix' => ' Web',
+    'title_postfix' => '',
 
     /*
     |--------------------------------------------------------------------------
@@ -254,7 +254,7 @@ return [
         ['header' => 'MIS OPERACIONES'],
         [
             'text'       => 'Mis Pedidos',
-            'route'        => 'client.carro',
+            'route'        => 'pedidos',
             'icon'    => 'fas fa-box-open',
 
         ],
