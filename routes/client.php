@@ -15,18 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 //-------------------------------------------------------------------------------------
 
-Auth::routes();
-
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-
-
-
-
-//-------------------------------------------------------------------------------------
-
-Route::get('/index', 'WebController@index')->name('web.index');
-
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/carro','UserController@ShowCarro')->name('client.carro');
+Route::get('/perfil','UserController@ShowPerfil')->name('client.perfil');
 
 
