@@ -1,5 +1,11 @@
 @extends('adminlte::page')
+@section('title','Perfil')
+
 @section('content_header')
+    <h1 style="text-align: center;">Mi Perfil</h1>
+    <hr>
+@stop
+@section('content')
 
 <div class="container">
     <div class="row">
