@@ -70,7 +70,7 @@ return [
     'usermenu_header_class' => 'bg-success',//el color del cartel de arriba
     'usermenu_image' => true,//para q muestre la imagen de usuario o no
     'usermenu_desc' => true,// para q aparezca el rol en el cartelito
-    'usermenu_profile_url' => false,// para q aparezca el boton de perfil en el cartelito
+    'usermenu_profile_url' => true,// para q aparezca el boton de perfil en el cartelito
 
     /*
     |--------------------------------------------------------------------------
@@ -194,7 +194,7 @@ return [
     'register_url' => 'register',
     'password_reset_url' => 'password/reset',
     'password_email_url' => 'password/email',
-    'profile_url' => false,
+    'profile_url' => 'client.perfil',
 
     /*
     |--------------------------------------------------------------------------
