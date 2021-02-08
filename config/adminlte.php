@@ -240,12 +240,6 @@ return [
             'route' => 'home',
             'icon' => 'fas fa-home',
         ],
-        [
-            'text'  => 'Blog',
-            'route' => 'web.index',
-            'icon'  => 'far fa-fw fa-file',
-
-        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
@@ -263,22 +257,38 @@ return [
             'icon'    => 'fas fa-fw fa-share',
 
         ],
-        ['header' => 'labels'],
+        ['header' => 'Operaciones'],
         [
-            'text'       => 'important',
-            'icon_color' => 'red',
+            'text'       => 'Mis Pedidos',
             'url'        => '#',
+            'icon'    => 'fas fa-box-open',
+
         ],
         [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
+            'text'       => 'Cta. Cte.',
             'url'        => '#',
+            'icon'    => 'fas fa-file-alt',
+
         ],
         [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
+            'text'       => 'Mis Pagos',
             'url'        => '#',
+            'icon'    => 'far fa-credit-card',
+
         ],
+        [
+            'text'       => 'Carros Guardados',
+            'url'        => '#',
+            'icon'    => 'fas fa-shopping-cart',
+
+        ],
+        [
+            'text'       => 'Garantias',
+            'url'        => '#',
+            'icon'    => 'fas fa-atlas',
+
+        ],
+
     ],
 
     /*

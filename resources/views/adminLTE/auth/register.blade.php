@@ -15,7 +15,7 @@
 
 
                         @section('auth_body')
-                            <form action="{{ $register_url }}" method="post">
+                            <form action="{{ route('register') }}" method="post">
                                 {{ csrf_field() }}
 
 
@@ -69,7 +69,7 @@
                                 </div>
 
                                 {{-- Register button --}}
-                                <button type="submit" class="btn btn-block {{ config('adminlte.classes_auth_btn', 'btn-flat btn-primary') }}">
+                                <button type="submit" class="btn btn-block">
                                     <span class="fas fa-user-plus"></span>
                                     {{ __('adminlte::adminlte.register') }}
                                 </button>

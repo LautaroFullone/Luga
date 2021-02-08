@@ -20,7 +20,7 @@
                     <h1 style="text-align:center; ">Registro de Usuario</h1>
                     <hr>
 
-                    <form action="{{ $register_url }}" method="post">
+                    <form action="{{ route('register') }}" method="post">
                         {{ csrf_field() }}
 
                         <div class="row">
@@ -30,7 +30,7 @@
                                 <div class="card {{ config('adminlte.classes_auth_card', 'card-outline card-primary') }}">
 
                                     {{-- Card Header --}}
-                                    <div class="card-header {{ config('adminlte.classes_auth_header', '') }}">
+                                    <div class="card-header">
                                         <h3 class="card-title float-none text-center">
                                             Datos del Usuario
                                         </h3>
@@ -40,7 +40,7 @@
                                     <div
                                         class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
 
-                                        {{-- <form action="{{ $register_url }}" method="post">
+                                        {{--<<form action="{{ $register_url }}" method="post">
                                             {{ csrf_field() }} --}}
 
                                         {{-- Email field --}}
@@ -95,7 +95,12 @@
                                             @endif
                                         </div>
 
-                                        {{-- </form> --}}
+                                        {{-- <button type="submit"class="btn btn-block btn-primary">
+                                            <span class="fas fa-user-plus"></span>
+                                            {{ __('adminlte::adminlte.register') }}
+                                        </button>
+
+                                        </form> --}}
                                     </div>
                                 </div>
 
@@ -401,27 +406,19 @@
 
                                     {{-- Card Header--}}
                                     <div class="card-header {{ config('adminlte.classes_auth_header', '') }}">
+
                                         {{-- Register button --}}
-                                        <button type="submit"
-                                            class="btn btn-block {{ config('adminlte.classes_auth_btn', 'btn-flat btn-primary') }}">
+                                        <button type="submit"class="btn btn-block btn-primary">
                                             <span class="fas fa-user-plus"></span>
                                             {{ __('adminlte::adminlte.register') }}
                                         </button>
 
                                     </div>
 
-                                    {{-- Card Footer
-                                    <div class="card-footer {{ config('adminlte.classes_auth_footer', '') }}">
-                                        <button type="submit"
-                                            class="btn btn-block {{ config('adminlte.classes_auth_btn', 'btn-flat btn-primary') }}">
-                                            <span class="fas fa-user-plus"></span>
-                                            {{ __('adminlte::adminlte.register') }}
-                                        </button>
-                                    </div>--}}
-
                                 </div>
                             </div>
 
+                        </div>
 
                     </form>
 
