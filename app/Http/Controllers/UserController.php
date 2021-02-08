@@ -6,12 +6,20 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function ShowCarro(){
+    public function showPedidos(){
+        return view('client.pedidos');
+    }
+
+    public function showCarro(){
         return view('client.carro');
     }
-    
-    public function ShowPerfil()
+
+    public function showPerfil()
     {
         return view('client.perfil');
+    }
+
+    public function modify(){
+        return view('client.modificarDatos');
     }
 }
