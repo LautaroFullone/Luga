@@ -455,7 +455,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/web/ingreso1.jpg" alt="Li's Product Image">
+                                                    <img width="100px" height="150px" src="images/web/ingreso1.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -623,7 +623,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/web/ingreso6.jpg" alt="Li's Product Image">
+                                                    <img width="100px" height="150px" src="images/web/ingreso6.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -664,7 +664,7 @@
                                         <div class="single-product-wrap">
                                             <div class="product-image">
                                                 <a href="single-product.html">
-                                                    <img src="images/web/ingreso5.jpg" alt="Li's Product Image">
+                                                    <img width="100px" height="150px" src="images/web/ingreso5.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
                                             </div>
@@ -1025,7 +1025,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="single-product">
                                                     <img src="images/web/memoria1.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>

@@ -10,6 +10,10 @@ class WebController extends Controller
         return view('web.index');
     }
     public function ShowCarro(){
-        return view('client/carro');
+        return view('client.carro');
+    }
+    public function ShowPerfil()
+    {
+        return view('client.perfil');
     }
 }
