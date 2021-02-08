@@ -18,5 +18,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/carro','UserController@ShowCarro')->name('client.carro');
 Route::get('/perfil','UserController@ShowPerfil')->name('client.perfil');
+Route::get('/modificar','UserController@modify')->name('client.modificar');
 
 

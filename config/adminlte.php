@@ -243,7 +243,7 @@ return [
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
-            'url'  => 'perfil',
+            'route'  => 'client.perfil',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
