@@ -132,6 +132,8 @@
                         </tr>
                     </tbody>
                 </table>
+                <a href="{{ asset('cliente/perfil') }}" class="btn btn-outline-primary" style="margin: 1em"> Regresar</a>
+                <button type="submit" class="btn btn-outline-primary float-right" style="margin: 1em">Enviar</button>
             </div>
         </div>
     </form>

@@ -4,12 +4,17 @@
 @section('content_header')
     <h1 style="text-align: center;">Mi Perfil</h1>
     <hr>
+
 @stop
 @section('content')
+
 
 <div class="container">
     <div class="row">
         <div class="col-12">
+            <div class="float-right">
+                <a href="{{ asset('cliente/modificar') }}"" class="btn btn-outline-primary" style="margin: 1em">Modificar</a>
+            </div>
             <table class="table table-striped">
                 <tbody>
                     <tr class="table-active">
@@ -134,10 +139,6 @@
         </div>
     </div>
 </div>
-<div class="float-center">
-    <a href="{{ asset('cliente/modificar') }}"" class="btn btn-outline-primary" style="margin: 1em">Modificar</a>
-</div>
-
   @stop
 
   @section('css')
