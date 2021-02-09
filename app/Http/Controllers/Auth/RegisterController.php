@@ -69,7 +69,6 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        //aca cargar las otras tablas
 
         return User::create([
             'role' => 'Cliente',

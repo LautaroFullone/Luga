@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-12">
             <div class="float-right">
-                <a href="{{ asset('cliente/modificar') }}"" class="btn btn-outline-primary" style="margin: 1em">Modificar</a>
+                <a href="{{ asset('cliente/modificar') }}" class="btn btn-outline-luga " style="margin: 5px">Modificar</a>
             </div>
             <table class="table table-striped">
                 <tbody>
@@ -23,7 +23,6 @@
                     <tr>
                         <th scope="row">Nombre</th>
                         <td>Nombre Usuario</td>
-
                     </tr>
                     <tr>
                         <th scope="row">Apellido</th>
