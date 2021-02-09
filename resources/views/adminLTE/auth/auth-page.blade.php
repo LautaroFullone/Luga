@@ -1,4 +1,5 @@
 @extends('adminlte::master')
+
 @php($dashboard_url = View::getSection('dashboard_url') ?? config('adminlte.dashboard_url', 'home'))
 
     @if (config('adminlte.use_route_url', false))
@@ -15,7 +16,6 @@
             @section('classes_body'){{ ($auth_type ?? 'login') . '-page' }}@stop
 
             @section('body')
-
 
                     <h1 style="text-align:center; ">Registro de Usuario</h1>
                     <hr>
@@ -39,10 +39,6 @@
                                     {{-- Card Body --}}
                                     <div
                                         class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
-
-                                        {{--<<form action="{{ $register_url }}" method="post">
-                                            {{ csrf_field() }} --}}
-
                                         {{-- Email field --}}
                                         <div class="input-group mb-2">
                                             <input type="email" name="email"
@@ -94,13 +90,6 @@
                                                 </div>
                                             @endif
                                         </div>
-
-                                        {{-- <button type="submit"class="btn btn-block btn-primary">
-                                            <span class="fas fa-user-plus"></span>
-                                            {{ __('adminlte::adminlte.register') }}
-                                        </button>
-
-                                        </form> --}}
                                     </div>
                                 </div>
 
@@ -408,7 +397,7 @@
                                     <div class="card-header {{ config('adminlte.classes_auth_header', '') }}">
 
                                         {{-- Register button --}}
-                                        <button type="submit"class="btn btn-block btn-primary">
+                                        <button type="submit"class="btn btn-block btn-luga">
                                             <span class="fas fa-user-plus"></span>
                                             {{ __('adminlte::adminlte.register') }}
                                         </button>

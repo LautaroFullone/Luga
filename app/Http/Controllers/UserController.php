@@ -19,7 +19,15 @@ class UserController extends Controller
         return view('client.perfil');
     }
 
-    public function modify(){
-        return view('client.modificarDatos');
+    public function showConfiguracion(){
+        return view('client.configuracion');
+    }
+
+    public function update(){
+
+    }
+
+    public function delete(){
+
     }
 }

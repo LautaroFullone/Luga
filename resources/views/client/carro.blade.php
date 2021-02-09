@@ -23,7 +23,7 @@
         <td scope="row">1</th>
         <td>19/01/2021</td>
         <td>
-            <a class="btn btn-success" href="">Entregado</a>
+            <a class="btn btn-warning" href="">En Preparacion</a>
         </td>
         <th><i class="fas fa-dollar-sign"></i> 21.200,50</th>
       </tr>
