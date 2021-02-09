@@ -39,6 +39,22 @@
                                     {{-- Card Body --}}
                                     <div
                                         class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
+
+                                        <div class="input-group mb-2">
+                                            <input type="text" name="name" class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }}"
+                                                   value="{{ old('name') }}" placeholder="Nombre de Usuario" autofocus>
+                                            <div class="input-group-append">
+                                                <div class="input-group-text">
+                                                    <span class="fas fa-user {{ config('adminlte.classes_auth_icon', '') }}"></span>
+                                                </div>
+                                            </div>
+                                            @if($errors->has('name'))
+                                                <div class="invalid-feedback">
+                                                    <strong>{{ $errors->first('name') }}</strong>
+                                                </div>
+                                            @endif
+                                        </div>
+
                                         {{-- Email field --}}
                                         <div class="input-group mb-2">
                                             <input type="email" name="email"

@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\DatoFiscal;
 use App\Http\Controllers\Controller;
+use App\Product;
 use App\Providers\RouteServiceProvider;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -66,6 +68,10 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         //aca cargar las otras tablas
+        DatoFiscal::create([
+
+        ]);
+
         return User::create([
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
