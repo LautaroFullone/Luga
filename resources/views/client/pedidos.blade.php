@@ -26,7 +26,7 @@
         <td>
              <a class="btn btn-warning" href="">En Preparacion</a>
         </td>
-        <th><i class="fas fa-dollar-sign"></i> 15.950,50</th>
+        <th><i class="fas fa-dollar-sign"></i>  21.689,80</th>
         <td>
             <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Pedido</a>
         </td>

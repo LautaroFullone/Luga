@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <!-- Modernizr js -->
     <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -52,7 +53,9 @@
         <div class="body-wrapper">
             <!-- Begin Header Area -->
             <header>
-
+                <a href="https://api.whatsapp.com/send?phone=542233010313&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Luga-distribuidora%20." class="float" target="_blank">
+                    <i class="fa fa-whatsapp my-float"></i>
+                    </a>
 
                 <!-- Begin Header Middle Area -->
                 <div class="header-middle pl-sm-0 pr-sm-0 pl-xs-0 pr-xs-0">
@@ -105,8 +108,8 @@
                                         <li class="hm-minicart">
                                             <div class="hm-minicart-trigger">
                                                 <span class="item-icon"></span>
-                                                <span class="item-text">$80.00
-                                                    <span class="cart-item-count">2</span>
+                                                <span class="item-text">$21,689.8
+                                                    <span class="cart-item-count">4</span>
                                                 </span>
                                             </div>
                                             <span></span>
@@ -114,11 +117,11 @@
                                                 <ul class="minicart-product-list">
                                                     <li>
                                                         <a href="single-product.html" class="minicart-product-image">
-                                                            <img src="images/product/small-size/5.jpg" alt="cart products">
+                                                            <img src="images/web/samsung.jpg" alt="cart products">
                                                         </a>
                                                         <div class="minicart-product-details">
-                                                            <h6><a href="single-product.html">Aenean eu tristique</a></h6>
-                                                            <span>£40 x 1</span>
+                                                            <h6><a href="single-product.html">	Samgung A10 2020</a></h6>
+                                                            <span>$20.000,00 x 1</span>
                                                         </div>
                                                         <button class="close" title="Remove">
                                                             <i class="fa fa-close"></i>
@@ -126,25 +129,49 @@
                                                     </li>
                                                     <li>
                                                         <a href="single-product.html" class="minicart-product-image">
-                                                            <img src="images/product/small-size/6.jpg" alt="cart products">
+                                                            <img src="images/web/vidrio.jpg" alt="cart products">
                                                         </a>
                                                         <div class="minicart-product-details">
-                                                            <h6><a href="single-product.html">Aenean eu tristique</a></h6>
-                                                            <span>£40 x 1</span>
+                                                            <h6><a href="single-product.html">Vidrio Templado Samsung A10</a></h6>
+                                                            <span>$350,00 x 1</span>
+                                                        </div>
+                                                        <button class="close" title="Remove">
+                                                            <i class="fa fa-close"></i>
+                                                        </button>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product.html" class="minicart-product-image">
+                                                            <img src="images/web/funda.jpg" alt="cart products">
+                                                        </a>
+                                                        <div class="minicart-product-details">
+                                                            <h6><a href="single-product.html">	Funda Celular Samgung A10 2020</a></h6>
+                                                            <span>$850,00 x 1</span>
+                                                        </div>
+                                                        <button class="close" title="Remove">
+                                                            <i class="fa fa-close"></i>
+                                                        </button>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product.html" class="minicart-product-image">
+                                                            <img src="images/web/memoria4.jpg" alt="cart products">
+                                                        </a>
+                                                        <div class="minicart-product-details">
+                                                            <h6><a href="single-product.html">Memoria Kingston Micro SD 16Gb clase 10</a></h6>
+                                                            <span>$489.80,00 x 1</span>
                                                         </div>
                                                         <button class="close" title="Remove">
                                                             <i class="fa fa-close"></i>
                                                         </button>
                                                     </li>
                                                 </ul>
-                                                <p class="minicart-total">SUBTOTAL: <span>£80.00</span></p>
+                                                <p class="minicart-total">SUBTOTAL: <span>$21,689.8</span></p>
                                                 <div class="minicart-button">
                                                     <a href="shopping-cart.html" class="li-button li-button-fullwidth li-button-dark">
-                                                        <span>View Full Cart</span>
+                                                        <span>Ver carrito Completo</span>
                                                     </a>
-                                                    <a href="checkout.html" class="li-button li-button-fullwidth">
+                                                   <!-- <a href="checkout.html" class="li-button li-button-fullwidth">
                                                         <span>Checkout</span>
-                                                    </a>
+                                                    </a>-->
                                                 </div>
                                             </div>
                                         </li>
@@ -437,7 +464,7 @@
                             <div class="li-product-tab">
                                 <ul class="nav li-product-menu">
                                    <li><a class="active" data-toggle="tab" href="#li-new-product"><span>Ultimos Ingresos</span></a></li>
-                                   <li><a data-toggle="tab" href="#li-bestseller-product"><span>Destacados</span></a></li>
+                                   <li><a data-toggle="tab" href="#li-bestseller-product"><span>Outlet</span></a></li>
                                 </ul>
                             </div>
                             <!-- Begin Li's Tab Menu Content Area -->

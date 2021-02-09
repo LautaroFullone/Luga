@@ -30,7 +30,7 @@ create table products(
     constraint fk_product_category foreign key (id_category) references categories(id)
 )engine=InnoDB;
 
-create table images(
+create table imagesProduct(
 	id int auto_increment not null,
     product_id int,
     image_path varchar(255),
