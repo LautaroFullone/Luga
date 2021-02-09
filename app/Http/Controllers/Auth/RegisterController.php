@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\DatoContacto;
 use App\DatoFiscal;
 use App\Http\Controllers\Controller;
 use App\Product;
@@ -53,6 +54,7 @@ class RegisterController extends Controller
     {
 
         return Validator::make($data, [
+            'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:4', 'confirmed'],
         ]);
@@ -68,11 +70,10 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         //aca cargar las otras tablas
-        DatoFiscal::create([
-
-        ]);
 
         return User::create([
+            'role' => 'Cliente',
+            'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
