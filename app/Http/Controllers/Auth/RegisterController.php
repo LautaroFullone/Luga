@@ -54,9 +54,36 @@ class RegisterController extends Controller
     {
 
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:4', 'confirmed'],
+            // Datos del usuario
+            'name' => [ 'required','string', 'max:255'],
+            'email' => [ 'required','string', 'email', 'max:255', 'unique:users'],
+            'password' => [ 'required','string', 'min:4', 'confirmed'],
+            //Datos del contacto
+            'contacto'=>['string','max:255'],
+            'telefono_contacto'=>['string','max:255'],
+            'celular_contacto'=>['string','max:255'],
+            //Datos del Comercio
+            'nombre_comercial'=>['string','max:255'],
+            'domicilio_comercial'=>['string','max:255'],
+            'codigo_postal_comercial'=>['string','max:255'],
+            'piso_comercial'=>['string','max:255'],
+            'departamento_comercial'=>['string','max:255'],
+            'localidad_comercial'=>['string','max:255'],
+            'provincia_comercial'=>['string','max:255'],
+            'telefono_comercial'=>['string','max:255'],
+            'fax_comercial'=>['string','max:255'],
+            'email_comercial'=>['string','max:255'],
+            'expreso_envio'=>['string','max:255'],
+            // Datos fiscales
+            'razon_social'=>['string','max:255'],
+            'cuit'=>['string','max:255'],
+            'condicion'=>['string','max:255'],
+            'domicilio_fiscal'=>['string','max:255'],
+            'codigo_postal_fiscal'=>['string','max:255'],
+            'piso_fiscal'=>['string','max:255'],
+            'departamento_fiscal'=>['string','max:255'],
+            'localidad_fiscal'=>['string','max:255'],
+            'provincia_fiscal'=>['string','max:255'],
         ]);
 
     }

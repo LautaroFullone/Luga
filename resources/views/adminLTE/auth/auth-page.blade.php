@@ -250,7 +250,7 @@
                                         </div>
 
                                         <div class="input-group mb-2">
-                                            <input type="text" name="telefono" class="form-control" placeholder="Telefono Comercial">
+                                            <input type="text" name="telefono_comercial" class="form-control" placeholder="Telefono Comercial">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span
@@ -260,7 +260,7 @@
                                         </div>
 
                                         <div class="input-group mb-2">
-                                            <input type="text" name="fax" class="form-control" placeholder="Fax">
+                                            <input type="text" name="fax_comercial" class="form-control" placeholder="Fax">
                                             <div class="input-group-append">
                                                 <div class="input-group-text">
                                                     <span

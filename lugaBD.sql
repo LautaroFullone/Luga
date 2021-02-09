@@ -59,7 +59,7 @@ create table datosFiscales(
     razon_social varchar(255),
     cuit varchar(255),
     condicion varchar(255),
-    domicilio_fiscal datetime,
+    domicilio_fiscal varchar(255),
     codigo_postal varchar(255),
     piso int,
     departamento varchar(255),
