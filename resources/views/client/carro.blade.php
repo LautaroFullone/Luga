@@ -25,7 +25,7 @@
         <td>
             <a class="btn btn-warning" href="">En Preparacion</a>
         </td>
-        <th><i class="fas fa-dollar-sign"></i> 21.200,50</th>
+        <th><i class="fas fa-dollar-sign"></i> 21.689,80</th>
       </tr>
     </tbody>
   </table>
@@ -70,6 +70,15 @@
         <td>1</td>
         <td><i class="fas fa-dollar-sign"></i> 850,00</td>
       </tr>
+      <tr>
+        <td scope="row">#LTY837E6</th>
+        <td>
+            <img src="{{ asset('images/web/memoria4.jpg') }}" width="100px" height="100px">
+        </td>
+        <td>Memoria Kingston Micro SD 16Gb clase 10</td>
+        <td>1</td>
+        <td><i class="fas fa-dollar-sign"></i> $489.80,00</td>
+      </tr
     </tbody>
   </table>
 
