@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-12">
             <div class="float-right">
-                <a href="{{ asset('cliente/modificar') }}" class="btn btn-outline-luga " style="margin: 5px">Modificar</a>
+                <a href="{{ route('configuracion') }}" class="btn btn-outline-luga " style="margin: 5px">Modificar</a>
             </div>
             <table class="table table-striped">
                 <tbody>
