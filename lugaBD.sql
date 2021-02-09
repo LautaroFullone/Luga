@@ -1,7 +1,7 @@
 create table users(
 	id int auto_increment not null,
+    role varchar(255),
     name varchar(255),
-    surname varchar(255),
     email varchar(255),
     password varchar(255),
     created_at datetime,
@@ -84,7 +84,7 @@ create table datosComerciales(
     telefono varchar(255),
     fax varchar(255),
     email varchar(255),
-    expreso_envio varchar(255), 
+    expreso_envio varchar(255),
 	created_at datetime,
     updated_at datetime,
     constraint pk_fiscal primary key (id),
