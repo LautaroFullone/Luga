@@ -4,7 +4,6 @@
 @section('content_header')
     <h1 style="text-align: center;">Mi Perfil</h1>
     <hr>
-
 @stop
 @section('content')
 

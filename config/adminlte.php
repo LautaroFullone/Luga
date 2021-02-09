@@ -231,22 +231,17 @@ return [
             'topnav' => true,
         ],
         [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
-        ],
-        [
             'text' => 'Pagina Principal',
             'route' => 'home',
             'icon' => 'fas fa-home',
         ],
-        ['header' => 'account_settings'],
+        /*['header' => 'account_settings'],
         [
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
-        ],
-        ['header' => 'MIS OPERACIONES'],
+        ],*/
+        ['header' => 'OPERACIONES'],
         [
             'text'       => 'Mis Pedidos',
             'route'        => 'pedidos',
@@ -254,14 +249,14 @@ return [
 
         ],
         [
-            'text'       => 'Cta. Cte.',
-            'url'        => '#',
+            'text'       => 'Cta. Corriente',
+            'route'        => 'cta.cte',
             'icon'    => 'fas fa-file-alt',
 
         ],
         [
             'text'       => 'Mis Pagos',
-            'url'        => '#',
+            'route'        => 'pagos',
             'icon'    => 'far fa-credit-card',
 
         ],

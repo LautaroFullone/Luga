@@ -22,7 +22,7 @@
     <tbody>
       <tr>
         <td scope="row">1</th>
-        <td>19/01/2021</td>
+        <td>22/10/2020</td>
         <td>
              <a class="btn btn-warning" href="">En Preparacion</a>
         </td>
@@ -65,7 +65,7 @@
         </td>
       </tr>
     </tbody>
-  </table>
+</table>
 
 
 @stop

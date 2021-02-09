@@ -23,6 +23,14 @@ class UserController extends Controller
         return view('client.configuracion');
     }
 
+    public function showCtaCorriente(){
+        return view('client.cuenta-corriente');
+    }
+
+    public function showPagos(){
+        return view('client.pagos');
+    }
+
     public function update(){
 
     }

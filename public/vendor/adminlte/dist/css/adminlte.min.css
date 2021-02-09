@@ -4118,7 +4118,7 @@ input[type="submit"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: #007bff;
+    background-color: #892f28;
 }
 .nav-fill .nav-item {
     -ms-flex: 1 1 auto;
@@ -11627,14 +11627,21 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini)
     > .nav-link.active {
     border-color: rgba(255, 255, 255, 0.9);
 }
-.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active,
-.sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
-    background-color: #007bff;
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active:hover,
+.sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active:hover {
+    background-color: #5c211c;
     color: #fff;
 }
+
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active,
+.sidebar-light-primary .nav-sidebar > .nav-item > .nav-link.active {
+    background-color: #892f28;
+    color: #fff;
+}
+
 .sidebar-dark-primary .nav-sidebar.nav-legacy > .nav-item > .nav-link.active,
 .sidebar-light-primary .nav-sidebar.nav-legacy > .nav-item > .nav-link.active {
-    border-color: #007bff;
+    border-color: #892f28;
 }
 .sidebar-dark-secondary .nav-sidebar > .nav-item > .nav-link.active,
 .sidebar-light-secondary .nav-sidebar > .nav-item > .nav-link.active {

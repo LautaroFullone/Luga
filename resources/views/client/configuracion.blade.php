@@ -1,5 +1,5 @@
 @extends('adminlte::page')
-@section('title','Modificar')
+@section('title','Configuracion')
 
 @section('content_header')
     <h1 style="text-align: center;">Modificar mi Perfil</h1>

@@ -9,6 +9,16 @@
 
 @section('content')
 
+<div style="margin: auto" class="col-6">
+    <div class="alert alert-warning alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+    <h5><i class="icon fas fa-exclamation-triangle"></i> Atencion!</h5>
+    Este sitio web se encuentra actualmente en su etapa de produccion, para mas informacion
+    consulte con sus desarrolladores. <br> <a href="http://www.temberweb.com/">Contactenos</a>
+
+    </div>
+</div>
+
 @stop
 
 @section('css')

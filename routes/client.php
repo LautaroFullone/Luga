@@ -20,6 +20,8 @@ Route::get('/configuracion','UserController@showConfiguracion')->name('configura
 Route::get('/carro','UserController@showCarro')->name('carro');
 Route::get('/perfil','UserController@showPerfil')->name('perfil');
 Route::get('/pedidos','UserController@showPedidos')->name('pedidos');
+Route::get('/cuenta-corriente','UserController@showCtaCorriente')->name('cta.cte');
+Route::get('/pagos','UserController@showPagos')->name('pagos');
 
 
 
