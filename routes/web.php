@@ -28,6 +28,7 @@ Route::get('/welcome', function () {
 //-------------------------------------------------------------------------------------
 
 Route::get('/index', 'WebController@index')->name('web.index');
+Route::get('/', 'HomeController@home');
 
 
 
