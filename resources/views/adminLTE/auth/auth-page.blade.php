@@ -17,8 +17,8 @@
 
             @section('body')
 
-                    <h1 style="text-align:center; ">Registro de Usuario</h1>
-                    <hr>
+                    <h1 style="text-align:center; ">Registro de Usuario</h1><hr>
+
 
                     <form action="{{ route('register') }}" method="post">
                         {{ csrf_field() }}
@@ -417,7 +417,14 @@
                                             <span class="fas fa-user-plus"></span>
                                             {{ __('adminlte::adminlte.register') }}
                                         </button>
+                                    </div>
 
+                                    <div class="card-footer {{ config('adminlte.classes_auth_footer', '') }}">
+                                        <p class="my-0">
+                                            <a href="{{ route('login')}}">
+                                                {{ __('adminlte::adminlte.i_already_have_a_membership') }}
+                                            </a>
+                                        </p>
                                     </div>
 
                                 </div>
