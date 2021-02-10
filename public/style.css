@@ -4629,17 +4629,17 @@ span.required {
   color: #363f4d;
   font-weight: 500;
   font-size: 12px;
-  background-color: #242424;
-  border: 1px solid #242424;
-  color: #ffffff;
+  background-color: #892f28;
+  border: 1px solid #892f28;
+  color: #c9c8c8;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
  .contact-form .li-btn-3:hover {
-  background-color: #892f28;
-  color: #ffffff;
-  background-color: #892f28;
-  border-color: #892f28;
+  background-color: #5c211c;
+  color: #fff;
+  background-color: #5c211c;
+  border-color: #5c211c;
 }
 .contact-page-side-content {
   background-color: #F2F2F2;

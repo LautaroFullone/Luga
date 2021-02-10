@@ -18,5 +18,9 @@ class WebController extends Controller
         return view('web.shopping-cart');
     }
 
+    public function showContact(){
+        return view('web.contact');
+    }
+
 
 }

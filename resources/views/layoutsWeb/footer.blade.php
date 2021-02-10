@@ -88,7 +88,7 @@
                             </li>
                             <li>
                                 <span>Email: </span>
-                                <a href="mailto://info@yourdomain.com">info@yourdomain.com</a>
+                                <a href="mailto://luga-distribuidora@gmail.com">luga-distribuidora@gmail.com</a>
                             </li>
                         </ul>
                     </div>
@@ -96,12 +96,12 @@
                     <!-- Begin Footer Block Area -->
                     <div class="col-lg-2 col-md-3 col-sm-6">
                         <div class="footer-block">
-                            <h3 class="footer-block-title">Product</h3>
+                            <h3 class="footer-block-title">Link Rapidos</h3>
                             <ul>
-                                <li><a href="#">Prices drop</a></li>
-                                <li><a href="#">New products</a></li>
-                                <li><a href="#">Best sales</a></li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><a href="{{ route('web.index') }}">Home</a></li>
+                                <li><a href="{{ route('shopping-cart') }}">Carro de Compras</a></li>
+                                <li><a href="{{ route('single-product') }}">Producto Simple</a></li>
+                                <li><a href="{{ route('home') }}">Plataforma Cliente</a></li>
                             </ul>
                         </div>
                     </div>
@@ -109,61 +109,27 @@
                     <!-- Begin Footer Block Area -->
                     <div class="col-lg-2 col-md-3 col-sm-6">
                         <div class="footer-block">
-                            <h3 class="footer-block-title">Our company</h3>
+                            <h3 class="footer-block-title">Categorias</h3>
                             <ul>
-                                <li><a href="#">Delivery</a></li>
-                                <li><a href="#">Legal Notice</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Camaras</a></li>
+                                <li><a href="#">Celulares</a></li>
+                                <li><a href="#">Televisores</a></li>
+                                <li><a href="#">Pendrives</a></li>
                             </ul>
                         </div>
                     </div>
                     <!-- Footer Block Area End Here -->
                     <!-- Begin Footer Block Area -->
                     <div class="col-lg-4">
-                        <div class="footer-block">
-                            <h3 class="footer-block-title">Follow Us</h3>
-                            <ul class="social-link">
-                                <li class="twitter">
-                                    <a href="https://twitter.com/" data-toggle="tooltip" target="_blank" title="Twitter">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="rss">
-                                    <a href="https://rss.com/" data-toggle="tooltip" target="_blank" title="RSS">
-                                        <i class="fa fa-rss"></i>
-                                    </a>
-                                </li>
-                                <li class="google-plus">
-                                    <a href="https://www.plus.google.com/discover" data-toggle="tooltip" target="_blank" title="Google Plus">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li class="facebook">
-                                    <a href="https://www.facebook.com/LUGA-Distribuidora-477220916429697/" data-toggle="tooltip" target="_blank" title="Facebook">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="youtube">
-                                    <a href="https://www.youtube.com/" data-toggle="tooltip" target="_blank" title="Youtube">
-                                        <i class="fa fa-youtube"></i>
-                                    </a>
-                                </li>
-                                <li class="instagram">
-                                    <a href="https://www.instagram.com/" data-toggle="tooltip" target="_blank" title="Instagram">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+
                         <!-- Begin Footer Newsletter Area -->
                         <div class="footer-newsletter">
-                            <h4>Sign up to newsletter</h4>
+                            <h4>Sumate a nuestras Novedades</h4>
                             <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer-subscribe-form validate" target="_blank" novalidate>
                                <div id="mc_embed_signup_scroll">
                                   <div id="mc-form" class="mc-form subscribe-form form-group" >
-                                    <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email" />
-                                    <button  class="btn" id="mc-submit">Subscribe</button>
+                                    <input id="mc-email" type="email" autocomplete="off" placeholder="Ingresa tu Email" />
+                                    <button  class="btn" id="mc-submit">Suscribirse</button>
                                   </div>
                                </div>
                             </form>
