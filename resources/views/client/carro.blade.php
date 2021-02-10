@@ -77,7 +77,7 @@
         </td>
         <td>Memoria Kingston Micro SD 16Gb clase 10</td>
         <td>1</td>
-        <td><i class="fas fa-dollar-sign"></i> $489.80,00</td>
+        <td><i class="fas fa-dollar-sign"></i> 489.80,00</td>
       </tr
     </tbody>
   </table>

@@ -28,7 +28,7 @@
         </td>
         <th><i class="fas fa-dollar-sign"></i>  21.689,80</th>
         <td>
-            <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Pedido</a>
+            <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Carro</a>
         </td>
       </tr>
       <tr>
@@ -39,7 +39,7 @@
         </td>
         <th><i class="fas fa-dollar-sign"></i> 10.205,00</th>
         <td>
-            <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Pedido</a>
+            <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Carro</a>
         </td>
       </tr>
       <tr>
@@ -50,18 +50,18 @@
         </td>
         <th><i class="fas fa-dollar-sign"></i> 32.545,80</th>
         <td>
-            <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Pedido</a>
+            <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Carro</a>
         </td>
       </tr>
       <tr>
-        <td scope="row">3</th>
+        <td scope="row">4</th>
         <td>10/02/2021</td>
         <td>
             <a class="btn btn-primary" href="">En Proceso</a>
         </td>
         <th><i class="fas fa-dollar-sign"></i> 26.314,85</th>
         <td>
-            <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Pedido</a>
+            <a href="{{ route('carro') }}" class="btn btn-outline-luga" >Ver Carro</a>
         </td>
       </tr>
     </tbody>

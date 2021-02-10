@@ -337,7 +337,7 @@ a.links,
 a.links-2,
 a.review-links {
 	background: #892f28 none repeat scroll 0 0;
-	color: #ffff;
+	color: #c9c8c8;
 	display: inline-block;
 	font-family: Rubik, sans-serif;
 	font-size: 14px;
@@ -356,14 +356,14 @@ a.links-2:hover {
 	color: #fff;
 }
 a.review-links {
-	background: #242424;
-	color: #ffffff;
+	background: #892f28;
+	color: #c9c8c8;
 	width: 205px;
 	height: 40px;
 	line-height: 40px;
 }
 a.review-links:hover {
-	background: #892f28;
+	background: #5c211c;
 }
 /*----------------------------------------*/
 /*  1.5 Text Color
@@ -1091,6 +1091,14 @@ textarea:focus {
   line-height: 27px;
   color: #e80f0f;
 }
+
+.product-details-view-content .product-info .price-box .new-priceLuga {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    color: #892f28;
+  }
+
 .product-details-view-content .content-center .product-variants {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1156,7 +1164,7 @@ textarea:focus {
 .cart-quantity .add-to-cart {
 	border: none;
 	font-size: 14px;
-	color: #242424;
+	color: #C9C8C8;
 	position: relative;
 	background: #892f28;
 	cursor: pointer;
@@ -1167,7 +1175,7 @@ textarea:focus {
 	transition: all 0.3s ease-in-out;
 }
 .cart-quantity .add-to-cart:hover {
-  background: #242424;
+  background: #5c211c;
   color: #ffffff;
 }
 .cart-plus-minus {
@@ -1275,7 +1283,7 @@ textarea:focus {
 /*----------------------------------------*/
 #scrollUp {
 	right: 25px;
-	bottom: 25px;
+	bottom: 110px;
 	height: 50px;
 	width: 50px;
 	line-height: 50px;
@@ -1512,8 +1520,8 @@ textarea:focus {
 	transition: all 0.3s ease-in-out;
 }
 .hm-wishlist > a:hover {
-	border-color: #892f28;
-	color: #892f28;
+	border-color: #5c211c;
+	color: #5c211c;
 }
 /*Header Middle Minicart*/
 .hm-minicart {
@@ -2926,7 +2934,7 @@ textarea:focus {
 	right: 0;
 	background: #892f28;
 	border: none;
-	color: #242424;
+	color: #c9c8c8;
 	height: 45px;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -2938,8 +2946,8 @@ textarea:focus {
 	transition: all 0.5s ease-in-out;
 }
 .footer-newsletter .form-group .btn:hover {
-	background: #333333;
-	color: #ffffff;
+	background: #5c211c;
+	color: #c9c8c8;
 }
 /*Footer Static Bottom*/
 .footer-links {

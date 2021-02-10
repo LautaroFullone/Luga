@@ -74,7 +74,7 @@
                         <div class="footer-logo">
                             <img src="images/web/logo.png" alt="Footer Logo">
                             <p class="info">
-                                We are a team of designers and developers that create high quality HTML Template & Woocommerce, Shopify Theme.
+                                Somos una empresa dedicada a la distribucion de insumos tecnologicos
                             </p>
                         </div>
                         <ul class="des">
