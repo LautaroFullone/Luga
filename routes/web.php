@@ -18,16 +18,13 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-
-
-
+Route::get('/', 'HomeController@home');
 
 //-------------------------------------------------------------------------------------
 
 Route::get('/index', 'WebController@index')->name('web.index');
+Route::get('/producto', 'WebController@showSingleProduct')->name('single-product');
+
 
 
 
