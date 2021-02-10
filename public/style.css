@@ -1716,13 +1716,13 @@ textarea:focus {
 	z-index: 1;
 	overflow: hidden;
 	background: #892f28;
-	color: #ffffff;
+	color: #c9c8c8;
 	line-height: 50px;
 	margin-top: 10px;
 	height: 50px;
 }
 .li-button:hover {
-	background: #242424;
+	background: #5c211c;
 	color: #ffffff;
 }
 .li-button-fullwidth {
@@ -2086,6 +2086,10 @@ textarea:focus {
 	width: 100%;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #e1e1e1;
+}
+
+.producto-carrito img{
+	height: 150px;
 }
 .li-product-menu li {
 	display: inline-block;
@@ -2947,7 +2951,7 @@ textarea:focus {
 }
 .footer-newsletter .form-group .btn:hover {
 	background: #5c211c;
-	color: #c9c8c8;
+	color: #ffff;
 }
 /*Footer Static Bottom*/
 .footer-links {
@@ -3637,11 +3641,11 @@ li.right-menu .cat-mega-menu-2 > li {
 	background-color: transparent;
 }
 .coupon-info p.form-row input[type="submit"] {
-	background: #252525 none repeat scroll 0 0;
+	background: #892f28 none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 0;
 	box-shadow: none;
-	color: #fff;
+	color: #c9c8c8;
 	cursor: pointer;
 	display: inline-block;
 	float: left;
@@ -3659,7 +3663,8 @@ li.right-menu .cat-mega-menu-2 > li {
 }
 .coupon-info p.form-row input[type="submit"]:hover,
 p.checkout-coupon input[type="submit"]:hover {
-	background: #892f28;
+	background: #5c211c;
+    color: #fff;
 }
 .form-row>label {
 	margin-top: 7px;
@@ -3869,9 +3874,9 @@ thead {
 	color: #515151;
 }
 .order-button-payment input {
-	background: #434343 none repeat scroll 0 0;
+	background: #892f28 none repeat scroll 0 0;
 	border: medium none;
-	color: #fff;
+	color: #c9c8c8;
 	font-size: 17px;
 	font-weight: 600;
 	height: 50px;
@@ -4010,7 +4015,7 @@ thead {
 	transition: all 0.3s ease-in-out;
 }
 .register-button:hover {
-	background: #892f28;
+	background: #5c211c;
 }
 /*----------------------------------------*/
 /* 	6.6 Li's Shopping Cart
@@ -4057,10 +4062,10 @@ thead {
 	width: 120px;
 }
 .coupon-all input.button {
-	background-color: #333;
+	background-color: #892f28;
 	border: 0 none;
 	border-radius: 2px;
-	color: #fff;
+	color: #c9c8c8;
 	display: inline-block;
 	font-size: 13px;
 	font-weight: 700;
@@ -4069,13 +4074,13 @@ thead {
 	letter-spacing: 1px;
 	line-height: 42px;
 	padding: 0 25px;
-	text-transform: uppercase;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
 	width: inherit;
 }
 .coupon-all input.button:hover {
-	background: #892f28;
+	background: #5c211c;
+    color: #FFF;
 }
 .coupon2 {
 	float: right;
@@ -4108,19 +4113,19 @@ thead {
 	border-bottom: 0;
 }
 .cart-page-total>a {
-	background-color: #333;
-	border: 1px solid #333;
-	color: #fff;
+	background-color: #892f28;
+	border: 1px solid #892f28;
+	color: #c9c8c8;
 	display: inline-block;
 	margin-top: 30px;
 	padding: 10px 20px;
-	text-transform: capitalize;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
 .cart-page-total>a:hover {
-	background: #892f28;
-	border-color: #892f28;
+	background: #5c211c;
+	border-color: #5c211c;
+    color: #FFF;
 }
 /*----------------------------------------*/
 /* 6.7 Li's Blog Page

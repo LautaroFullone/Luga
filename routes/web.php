@@ -24,6 +24,7 @@ Route::get('/', 'HomeController@home');
 
 Route::get('/index', 'WebController@index')->name('web.index');
 Route::get('/producto', 'WebController@showSingleProduct')->name('single-product');
+Route::get('/carro-de-compras', 'WebController@showShoppingCart')->name('shopping-cart');
 
 
 
