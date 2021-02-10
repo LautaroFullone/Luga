@@ -10,5 +10,9 @@ class WebController extends Controller
         return view('web.index');
     }
 
+    public function showSingleProduct(){
+        return view('web.single-product-normal');
+    }
+
 
 }
