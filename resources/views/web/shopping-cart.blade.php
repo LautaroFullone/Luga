@@ -5,7 +5,7 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Shopping Cart || limupa - Digital Products Store eCommerce Bootstrap 4 Template</title>
+        <title>Luga Distribuidora | Carro de Compras</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
@@ -70,7 +70,7 @@
                 <div class="container">
                     <div class="breadcrumb-content">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{{ route('web.index') }}">Home</a></li>
                             <li class="active">Carro de Compras</li>
                         </ul>
                     </div>
