@@ -43,7 +43,6 @@
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <!-- Modernizr js -->
     <script src="{{ asset('js/vendor/modernizr-2.8.3.min.js') }}"></script>
-
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -55,7 +54,7 @@
             <header>
                 <a href="https://api.whatsapp.com/send?phone=542233010313&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Luga-distribuidora%20." class="float" target="_blank">
                     <i class="fa fa-whatsapp my-float"></i>
-                    </a>
+                </a>
 
                 <!-- Begin Header Middle Area -->
                     @include('layoutsWeb.header-middle')
@@ -64,16 +63,7 @@
                 <!-- Begin Header Bottom Area -->
                     @include('layoutsWeb.header-bottom')
                 <!-- Header Bottom Area End Here -->
-                <!-- Begin Mobile Menu Area -->
-                <div class="mobile-menu-area d-lg-none d-xl-none col-12">
-                    <div class="container">
-                        <div class="row">
-                            <div class="mobile-menu">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Mobile Menu Area End Here -->
+
             </header>
             <!-- Header Area End Here -->
             <!-- Begin Slider With Banner Area -->
@@ -216,7 +206,7 @@
                                         <!-- single-product-wrap start -->
                                         <div class="single-product-wrap">
                                             <div class="product-image">
-                                                <a href="single-product.html">
+                                                <a href="{{ route('single-product') }}">
                                                     <img src="images/web/ingreso2.jpg" alt="Li's Product Image">
                                                 </a>
                                                 <span class="sticker">New</span>
@@ -225,7 +215,7 @@
                                                 <div class="product_desc_info">
                                                     <div class="product-review">
                                                         <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Studio Design</a>
+                                                            <a href="#">Camaras</a>
                                                         </h5>
                                                         <div class="rating-box">
                                                             <ul class="rating">
@@ -237,7 +227,7 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <h4><a class="product_name" href="single-product.html">Cámara Deportiva Sports Cam Full HD 1080p</a></h4>
+                                                    <h4><a class="product_name" href={{ route('single-product') }}>Cámara Deportiva Sports Cam Full HD 1080p</a></h4>
                                                     <div class="price-box">
                                                         <span class="new-price new-price-2">$2.852,50</span>
                                                         <span class="old-price">$2.905,22</span>
@@ -729,279 +719,7 @@
             <!-- Li's Static Banner Area End Here -->
 
             <!-- Begin Li's Laptop Product Area -->
-            <section class="product-area li-laptop-product pt-60 pb-45">
-                <div class="container">
-                    <div class="row">
-                        <!-- Begin Li's Section Area -->
-                        <div class="col-lg-12">
-                            <div class="li-section-title">
-                                <h2>
-                                    <span>Memorias</span>
-                                </h2>
-
-                            </div>
-                            <div class="row">
-                                <div class="product-active owl-carousel">
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product">
-                                                    <img src="images/web/memoria1.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Memorias</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Memoria Kingston Micro SD 128Gb clase 10 - 100Mb/s
-                                                    </a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price">$1.978</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/web/memoria2.jpg" alt="Li's Product Image">
-                                                </a>
-
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Studio Design</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Memoria Kingston Micro SD 16Gb 100 MB/S</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price new-price-2">$631.12</span>
-                                                        <span class="old-price">$700,22</span>
-                                                        <span class="discount-percentage">-7%</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/web/memoria3.jpg" alt="Li's Product Image">
-                                                </a>
-
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Graphic Corner</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Memoria Kingston Micro SD 16Gb clase 10 - 80Mb/s</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price">$489,80</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/web/memoria4.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Studio Design</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Memoria Kingston Micro SD 64Gb clase 10</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price new-price-2">$1.105</span>
-                                                        <span class="old-price">$1250.22</span>
-                                                        <span class="discount-percentage">-10%</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/web/memoria5.jpg" alt="Li's Product Image">
-                                                </a>
-
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Graphic Corner</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Memoria Kingston Micro SD 32Gb 100 MB/S</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price">$707.50</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <!-- single-product-wrap start -->
-                                        <div class="single-product-wrap">
-                                            <div class="product-image">
-                                                <a href="single-product.html">
-                                                    <img src="images/web/memoria6.jpg" alt="Li's Product Image">
-                                                </a>
-                                                <span class="sticker">New</span>
-                                            </div>
-                                            <div class="product_desc">
-                                                <div class="product_desc_info">
-                                                    <div class="product-review">
-                                                        <h5 class="manufacturer">
-                                                            <a href="shop-left-sidebar.html">Studio Design</a>
-                                                        </h5>
-                                                        <div class="rating-box">
-                                                            <ul class="rating">
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <h4><a class="product_name" href="single-product.html">Memoria Sandisk Micro SD 32Gb Clase 10</a></h4>
-                                                    <div class="price-box">
-                                                        <span class="new-price new-price-2">$1.030</span>
-                                                        <span class="old-price">$1.200,50</span>
-                                                        <span class="discount-percentage">-13%</span>
-                                                    </div>
-                                                </div>
-                                                <div class="add-actions">
-                                                    <ul class="add-actions-link">
-                                                        <li class="add-cart active"><a href="#">Add to cart</a></li>
-                                                        <li><a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                                                        <li><a href="#" title="quick view" class="quick-view-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- single-product-wrap end -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Li's Section Area End Here -->
-                    </div>
-                </div>
-            </section>
+            @include('layoutsWeb.product-list')
             <!-- Li's Laptop Product Area End Here -->
 
             {{-- PARLANTES LISTA --}}
@@ -2078,188 +1796,8 @@
                 </div>
             </section>
 
-
-            <div class="footer">
-                <!-- Begin Footer Static Top Area -->
-                <div class="footer-static-top">
-                    <div class="container">
-                        <!-- Begin Footer Shipping Area -->
-                        <div class="footer-shipping pt-60 pb-55 pb-xs-25">
-                            <div class="row">
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
-                                    <div class="li-shipping-inner-box">
-                                        <div class="shipping-icon">
-                                            <img src="images/shipping-icon/1.png" alt="Shipping Icon">
-                                        </div>
-                                        <div class="shipping-text">
-                                            <h2>Envios por Zona</h2>
-                                            <p>Llevamos su compra en nuestra web hacia su puerta.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-sm-55 pb-xs-55">
-                                    <div class="li-shipping-inner-box">
-                                        <div class="shipping-icon">
-                                            <img src="images/shipping-icon/2.png" alt="Shipping Icon">
-                                        </div>
-                                        <div class="shipping-text">
-                                            <h2>Pague con Seguridad</h2>
-                                            <p>Realice sus pagos con los metodos mas utilizados y seguros en todo el mundo.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
-                                    <div class="li-shipping-inner-box">
-                                        <div class="shipping-icon">
-                                            <img src="images/shipping-icon/3.png" alt="Shipping Icon">
-                                        </div>
-                                        <div class="shipping-text">
-                                            <h2>Compre con Confianza</h2>
-                                            <p>Nuestra proteccion al comprador cubre su compra desde el primer click, hasta su envio.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                                <!-- Begin Li's Shipping Inner Box Area -->
-                                <div class="col-lg-3 col-md-6 col-sm-6 pb-xs-30">
-                                    <div class="li-shipping-inner-box">
-                                        <div class="shipping-icon">
-                                            <img src="images/shipping-icon/4.png" alt="Shipping Icon">
-                                        </div>
-                                        <div class="shipping-text">
-                                            <h2>Centro de Atencion</h2>
-                                            <p>¿Tiene alguna consulta? No dude en escribirnos, un especialista lo atenderá.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Li's Shipping Inner Box Area End Here -->
-                            </div>
-                        </div>
-                        <!-- Footer Shipping Area End Here -->
-                    </div>
-                </div>
-                <!-- Footer Static Top Area End Here -->
-
-                <!-- Begin Footer Static Middle Area -->
-                <div class="footer-static-middle">
-                    <div class="container">
-                        <div class="footer-logo-wrap pt-50 pb-35">
-                            <div class="row">
-                                <!-- Begin Footer Logo Area -->
-                                <div class="col-lg-4 col-md-6">
-                                    <div class="footer-logo">
-                                        <img src="images/web/logo.png" alt="Footer Logo">
-                                        <p class="info">
-                                            We are a team of designers and developers that create high quality HTML Template & Woocommerce, Shopify Theme.
-                                        </p>
-                                    </div>
-                                    <ul class="des">
-                                        <li>
-                                            <span>Dirección: </span>
-                                            Almirante Brown 3218, Mar del Plata.
-                                        </li>
-                                        <li>
-                                            <span>Teléfono: </span>
-                                            <a href="#">(223) 472-6956</a>
-                                        </li>
-                                        <li>
-                                            <span>Email: </span>
-                                            <a href="mailto://info@yourdomain.com">info@yourdomain.com</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!-- Footer Logo Area End Here -->
-                                <!-- Begin Footer Block Area -->
-                                <div class="col-lg-2 col-md-3 col-sm-6">
-                                    <div class="footer-block">
-                                        <h3 class="footer-block-title">Product</h3>
-                                        <ul>
-                                            <li><a href="#">Prices drop</a></li>
-                                            <li><a href="#">New products</a></li>
-                                            <li><a href="#">Best sales</a></li>
-                                            <li><a href="#">Contact us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- Footer Block Area End Here -->
-                                <!-- Begin Footer Block Area -->
-                                <div class="col-lg-2 col-md-3 col-sm-6">
-                                    <div class="footer-block">
-                                        <h3 class="footer-block-title">Our company</h3>
-                                        <ul>
-                                            <li><a href="#">Delivery</a></li>
-                                            <li><a href="#">Legal Notice</a></li>
-                                            <li><a href="#">About us</a></li>
-                                            <li><a href="#">Contact us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!-- Footer Block Area End Here -->
-                                <!-- Begin Footer Block Area -->
-                                <div class="col-lg-4">
-                                    <div class="footer-block">
-                                        <h3 class="footer-block-title">Follow Us</h3>
-                                        <ul class="social-link">
-                                            <li class="twitter">
-                                                <a href="https://twitter.com/" data-toggle="tooltip" target="_blank" title="Twitter">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li class="rss">
-                                                <a href="https://rss.com/" data-toggle="tooltip" target="_blank" title="RSS">
-                                                    <i class="fa fa-rss"></i>
-                                                </a>
-                                            </li>
-                                            <li class="google-plus">
-                                                <a href="https://www.plus.google.com/discover" data-toggle="tooltip" target="_blank" title="Google Plus">
-                                                    <i class="fa fa-google-plus"></i>
-                                                </a>
-                                            </li>
-                                            <li class="facebook">
-                                                <a href="https://www.facebook.com/LUGA-Distribuidora-477220916429697/" data-toggle="tooltip" target="_blank" title="Facebook">
-                                                    <i class="fa fa-facebook"></i>
-                                                </a>
-                                            </li>
-                                            <li class="youtube">
-                                                <a href="https://www.youtube.com/" data-toggle="tooltip" target="_blank" title="Youtube">
-                                                    <i class="fa fa-youtube"></i>
-                                                </a>
-                                            </li>
-                                            <li class="instagram">
-                                                <a href="https://www.instagram.com/" data-toggle="tooltip" target="_blank" title="Instagram">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <!-- Begin Footer Newsletter Area -->
-                                    <div class="footer-newsletter">
-                                        <h4>Sign up to newsletter</h4>
-                                        <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer-subscribe-form validate" target="_blank" novalidate>
-                                           <div id="mc_embed_signup_scroll">
-                                              <div id="mc-form" class="mc-form subscribe-form form-group" >
-                                                <input id="mc-email" type="email" autocomplete="off" placeholder="Enter your email" />
-                                                <button  class="btn" id="mc-submit">Subscribe</button>
-                                              </div>
-                                           </div>
-                                        </form>
-                                    </div>
-                                    <!-- Footer Newsletter Area End Here -->
-                                </div>
-                                <!-- Footer Block Area End Here -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Static Middle Area End Here -->
-                <!-- Begin Footer Static Bottom Area -->
-
-            </div>
+            <!-- Footer Area Start Here -->
+                @include('layoutsWeb.footer')
             <!-- Footer Area End Here -->
 
 
@@ -2277,31 +1815,31 @@
                                     <div class="product-details-left">
                                         <div class="product-details-images slider-navigation-1">
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/1.jpg" alt="product image">
+                                                <img src="images/web/camara1.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/2.jpg" alt="product image">
+                                                <img src="images/web/camara2.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/3.jpg" alt="product image">
+                                                <img src="images/web/camara3.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/4.jpg" alt="product image">
+                                                <img src="images/web/camara4.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/5.jpg" alt="product image">
+                                                <img src="images/web/camara5.jpg" alt="product image">
                                             </div>
                                             <div class="lg-image">
-                                                <img src="images/product/large-size/6.jpg" alt="product image">
+                                                <img src="images/web/camara6.jpg" alt="product image">
                                             </div>
                                         </div>
                                         <div class="product-details-thumbs slider-thumbs-1">
-                                            <div class="sm-image"><img src="images/product/small-size/1.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/2.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/3.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/4.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/5.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="images/product/small-size/6.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/web/camara1.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/web/camara2.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/web/camara3.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/web/camara4.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/web/camara5.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="images/web/camara6.jpg" alt="product image thumb"></div>
                                         </div>
                                     </div>
                                     <!--// Product Details Left -->
@@ -2310,37 +1848,17 @@
                                 <div class="col-lg-7 col-md-6 col-sm-6">
                                     <div class="product-details-view-content pt-60">
                                         <div class="product-info">
-                                            <h2>Today is a good day Framed poster</h2>
-                                            <span class="product-details-ref">Reference: demo_15</span>
-                                            <div class="rating-box pt-20">
-                                                <ul class="rating rating-with-review-item">
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                    <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                                    <li class="review-item"><a href="#">Read Review</a></li>
-                                                    <li class="review-item"><a href="#">Write Review</a></li>
-                                                </ul>
-                                            </div>
+                                            <h2>Cámara Deportiva Sports Cam Full HD 1080p</h2>
+                                            <span class="product-details-ref">Categoria: <a href="#">Camaras</a></span>
+
                                             <div class="price-box pt-20">
-                                                <span class="new-price new-price-2">$57.98</span>
+                                                <span class="new-priceLuga">$2.852,50</span>
                                             </div>
                                             <div class="product-desc">
                                                 <p>
-                                                    <span>100% cotton double printed dress. Black and white striped top and orange high waisted skater skirt bottom. Lorem ipsum dolor sit amet, consectetur adipisicing elit. quibusdam corporis, earum facilis et nostrum dolorum accusamus similique eveniet quia pariatur.
+                                                    <span>La calidad de imagen de la Sport Cam es excepcional: su comportamiento en ruido, rango dinámico… Básicamente lleva el mismo sensor o muy similar al de cámaras de gamas más altas de Sport. En ese aspecto es una de las mejores opciones como primera cámara deportiva.
                                                     </span>
                                                 </p>
-                                            </div>
-                                            <div class="product-variants">
-                                                <div class="produt-variants-size">
-                                                    <label>Dimension</label>
-                                                    <select class="nice-select">
-                                                        <option value="1" title="S" selected="selected">40x60cm</option>
-                                                        <option value="2" title="M">60x90cm</option>
-                                                        <option value="3" title="L">80x120cm</option>
-                                                    </select>
-                                                </div>
                                             </div>
                                             <div class="single-add-to-cart">
                                                 <form action="#" class="cart-quantity">
@@ -2352,19 +1870,12 @@
                                                             <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
                                                         </div>
                                                     </div>
-                                                    <button class="add-to-cart" type="submit">Add to cart</button>
+                                                    <button class="add-to-cart" type="submit">Agregar a Deseados</button>
                                                 </form>
                                             </div>
                                             <div class="product-additional-info pt-25">
                                                 <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to wishlist</a>
-                                                <div class="product-social-sharing pt-25">
-                                                    <ul>
-                                                        <li class="facebook"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                        <li class="twitter"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                        <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i>Google +</a></li>
-                                                        <li class="instagram"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                                                    </ul>
-                                                </div>
+                                                <span class="float-right">Luga Distribuidora</span>
                                             </div>
                                         </div>
                                     </div>

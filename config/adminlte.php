@@ -235,6 +235,11 @@ return [
             'route' => 'home',
             'icon' => 'fas fa-home',
         ],
+        [
+            'text' => 'Index',
+            'route' => 'web.index',
+            'icon' => 'fas fa-link',
+        ],
         /*['header' => 'account_settings'],
         [
             'text' => 'change_password',

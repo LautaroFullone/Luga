@@ -166,11 +166,8 @@
                                 </ul>
                             </li>
 
+                            <li class="float-right"><a href="{{ route('contact') }}">CONTACTO</a></li>
 
-                            <li class="float-right"><a href="about-us.html">About Us</a></li>
-                            <li class="float-right"><a href="contact.html">Contact</a></li>
-                            <li class="float-right"><a href="shop-left-sidebar.html">Smartwatch</a></li>
-                            <li class="float-right"><a href="shop-left-sidebar.html">Accessories</a></li>
                         </ul>
                     </nav>
                 </div>

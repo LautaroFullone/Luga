@@ -10,5 +10,17 @@ class WebController extends Controller
         return view('web.index');
     }
 
+    public function showSingleProduct(){
+        return view('web.single-product-normal');
+    }
+
+    public function showShoppingCart(){
+        return view('web.shopping-cart');
+    }
+
+    public function showContact(){
+        return view('web.contact');
+    }
+
 
 }

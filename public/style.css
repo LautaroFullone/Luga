@@ -337,7 +337,7 @@ a.links,
 a.links-2,
 a.review-links {
 	background: #892f28 none repeat scroll 0 0;
-	color: #ffff;
+	color: #c9c8c8;
 	display: inline-block;
 	font-family: Rubik, sans-serif;
 	font-size: 14px;
@@ -356,14 +356,14 @@ a.links-2:hover {
 	color: #fff;
 }
 a.review-links {
-	background: #242424;
-	color: #ffffff;
+	background: #892f28;
+	color: #c9c8c8;
 	width: 205px;
 	height: 40px;
 	line-height: 40px;
 }
 a.review-links:hover {
-	background: #892f28;
+	background: #5c211c;
 }
 /*----------------------------------------*/
 /*  1.5 Text Color
@@ -1091,6 +1091,14 @@ textarea:focus {
   line-height: 27px;
   color: #e80f0f;
 }
+
+.product-details-view-content .product-info .price-box .new-priceLuga {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    color: #892f28;
+  }
+
 .product-details-view-content .content-center .product-variants {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1156,7 +1164,7 @@ textarea:focus {
 .cart-quantity .add-to-cart {
 	border: none;
 	font-size: 14px;
-	color: #242424;
+	color: #C9C8C8;
 	position: relative;
 	background: #892f28;
 	cursor: pointer;
@@ -1167,7 +1175,7 @@ textarea:focus {
 	transition: all 0.3s ease-in-out;
 }
 .cart-quantity .add-to-cart:hover {
-  background: #242424;
+  background: #5c211c;
   color: #ffffff;
 }
 .cart-plus-minus {
@@ -1275,7 +1283,7 @@ textarea:focus {
 /*----------------------------------------*/
 #scrollUp {
 	right: 25px;
-	bottom: 25px;
+	bottom: 110px;
 	height: 50px;
 	width: 50px;
 	line-height: 50px;
@@ -1512,8 +1520,8 @@ textarea:focus {
 	transition: all 0.3s ease-in-out;
 }
 .hm-wishlist > a:hover {
-	border-color: #892f28;
-	color: #892f28;
+	border-color: #5c211c;
+	color: #5c211c;
 }
 /*Header Middle Minicart*/
 .hm-minicart {
@@ -1708,13 +1716,13 @@ textarea:focus {
 	z-index: 1;
 	overflow: hidden;
 	background: #892f28;
-	color: #ffffff;
+	color: #c9c8c8;
 	line-height: 50px;
 	margin-top: 10px;
 	height: 50px;
 }
 .li-button:hover {
-	background: #242424;
+	background: #5c211c;
 	color: #ffffff;
 }
 .li-button-fullwidth {
@@ -2078,6 +2086,10 @@ textarea:focus {
 	width: 100%;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #e1e1e1;
+}
+
+.producto-carrito img{
+	height: 150px;
 }
 .li-product-menu li {
 	display: inline-block;
@@ -2926,7 +2938,7 @@ textarea:focus {
 	right: 0;
 	background: #892f28;
 	border: none;
-	color: #242424;
+	color: #c9c8c8;
 	height: 45px;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -2938,8 +2950,8 @@ textarea:focus {
 	transition: all 0.5s ease-in-out;
 }
 .footer-newsletter .form-group .btn:hover {
-	background: #333333;
-	color: #ffffff;
+	background: #5c211c;
+	color: #ffff;
 }
 /*Footer Static Bottom*/
 .footer-links {
@@ -3629,11 +3641,11 @@ li.right-menu .cat-mega-menu-2 > li {
 	background-color: transparent;
 }
 .coupon-info p.form-row input[type="submit"] {
-	background: #252525 none repeat scroll 0 0;
+	background: #892f28 none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 0;
 	box-shadow: none;
-	color: #fff;
+	color: #c9c8c8;
 	cursor: pointer;
 	display: inline-block;
 	float: left;
@@ -3651,7 +3663,8 @@ li.right-menu .cat-mega-menu-2 > li {
 }
 .coupon-info p.form-row input[type="submit"]:hover,
 p.checkout-coupon input[type="submit"]:hover {
-	background: #892f28;
+	background: #5c211c;
+    color: #fff;
 }
 .form-row>label {
 	margin-top: 7px;
@@ -3861,9 +3874,9 @@ thead {
 	color: #515151;
 }
 .order-button-payment input {
-	background: #434343 none repeat scroll 0 0;
+	background: #892f28 none repeat scroll 0 0;
 	border: medium none;
-	color: #fff;
+	color: #c9c8c8;
 	font-size: 17px;
 	font-weight: 600;
 	height: 50px;
@@ -4002,7 +4015,7 @@ thead {
 	transition: all 0.3s ease-in-out;
 }
 .register-button:hover {
-	background: #892f28;
+	background: #5c211c;
 }
 /*----------------------------------------*/
 /* 	6.6 Li's Shopping Cart
@@ -4049,10 +4062,10 @@ thead {
 	width: 120px;
 }
 .coupon-all input.button {
-	background-color: #333;
+	background-color: #892f28;
 	border: 0 none;
 	border-radius: 2px;
-	color: #fff;
+	color: #c9c8c8;
 	display: inline-block;
 	font-size: 13px;
 	font-weight: 700;
@@ -4061,13 +4074,13 @@ thead {
 	letter-spacing: 1px;
 	line-height: 42px;
 	padding: 0 25px;
-	text-transform: uppercase;
 	-webkit-transition: all 0.3s ease-in-out 0s;
 	transition: all 0.3s ease-in-out 0s;
 	width: inherit;
 }
 .coupon-all input.button:hover {
-	background: #892f28;
+	background: #5c211c;
+    color: #FFF;
 }
 .coupon2 {
 	float: right;
@@ -4100,19 +4113,19 @@ thead {
 	border-bottom: 0;
 }
 .cart-page-total>a {
-	background-color: #333;
-	border: 1px solid #333;
-	color: #fff;
+	background-color: #892f28;
+	border: 1px solid #892f28;
+	color: #c9c8c8;
 	display: inline-block;
 	margin-top: 30px;
 	padding: 10px 20px;
-	text-transform: capitalize;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 }
 .cart-page-total>a:hover {
-	background: #892f28;
-	border-color: #892f28;
+	background: #5c211c;
+	border-color: #5c211c;
+    color: #FFF;
 }
 /*----------------------------------------*/
 /* 6.7 Li's Blog Page
@@ -4616,17 +4629,17 @@ span.required {
   color: #363f4d;
   font-weight: 500;
   font-size: 12px;
-  background-color: #242424;
-  border: 1px solid #242424;
-  color: #ffffff;
+  background-color: #892f28;
+  border: 1px solid #892f28;
+  color: #c9c8c8;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
 }
  .contact-form .li-btn-3:hover {
-  background-color: #892f28;
-  color: #ffffff;
-  background-color: #892f28;
-  border-color: #892f28;
+  background-color: #5c211c;
+  color: #fff;
+  background-color: #5c211c;
+  border-color: #5c211c;
 }
 .contact-page-side-content {
   background-color: #F2F2F2;
@@ -5440,7 +5453,6 @@ span.required {
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
 }
-
 .my-float{
 	margin-top:16px;
 }
