@@ -14,6 +14,11 @@ class Product extends Model
         return $this->hasMany('App\Image')->orderBy('id', 'desc');
     }
 
+    public function category(){
+        return $this->belongsTo('App\Category', 'id_category');
+    }
+
+
 
 
 }

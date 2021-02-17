@@ -19,7 +19,7 @@
                                     @php($password_reset_url = $password_reset_url ? url($password_reset_url) : '')
                                     @endif
 
-
+                                    @section('title', 'Iniciar Sesion')
                                     @section('auth_header', 'Iniciar Sesion')
 
 

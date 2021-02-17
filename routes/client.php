@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 //-------------------------------------------------------------------------------------
 
+//  cliente/ ->
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/configuracion','UserController@showConfiguracion')->name('configuracion');
 Route::get('/carro','UserController@showCarro')->name('carro');
@@ -22,6 +23,8 @@ Route::get('/perfil','UserController@showPerfil')->name('perfil');
 Route::get('/pedidos','UserController@showPedidos')->name('pedidos');
 Route::get('/cuenta-corriente','UserController@showCtaCorriente')->name('cta.cte');
 Route::get('/pagos','UserController@showPagos')->name('pagos');
+
+Route::get('/categoria/{name}', 'ProductController@getCategoryProducts')->name('categoria');
 
 
 
