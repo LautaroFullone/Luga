@@ -5450,12 +5450,21 @@ span.required {
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 3px #fff;
   z-index:100;
 }
+
+.float:hover{
+    color: #fff;
+}
 .my-float{
+    color: #c9c8c8;
 	margin-top:16px;
 }
+.fa-whatsapp:hover{
+    color: #FFF;
+}
+
 
 /*----------------------------------------------------------------------------------------------------*/
 /*------------------------------------------> The End <-----------------------------------------------*/
