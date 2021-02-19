@@ -26,5 +26,8 @@ Route::get('/pagos','UserController@showPagos')->name('pagos');
 
 Route::get('/categoria/{name}', 'ProductController@getCategoryProducts')->name('categoria');
 
+Route::get('/producto-crear', 'ProductController@showNewProduct')->name('producto.crear');
+Route::post('/producto-nuevo', 'ProductController@save')->name('producto.save');
+
 
 

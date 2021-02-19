@@ -27,7 +27,6 @@ Route::get('/producto', 'WebController@showSingleProduct')->name('single-product
 Route::get('/carro-de-compras', 'WebController@showShoppingCart')->name('shopping-cart');
 Route::get('/contacto', 'WebController@showContact')->name('contact');
 
-
 Route::get('/carro-agregar', 'CartController@add')->name('cart.add');
 Route::get('/carro-index', 'CartController@showCart')->name('cart.showCart');
 Route::post('/carro-limpiar', 'CartController@clear')->name('cart.clear');

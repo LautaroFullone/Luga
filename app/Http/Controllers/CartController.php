@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\Auth;
 class CartController extends Controller
 {
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function add(Request $request){
         $user_id = Auth::user()->id;
         $product = Product::find($request->input('product_id'));

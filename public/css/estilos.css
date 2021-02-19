@@ -2,3 +2,24 @@
     background-color: #892f28;
 }
 
+
+.contenedor{
+    width: 100%;
+    border: 5px solid black;
+    margin: auto;
+    height: 500px;
+
+    display: grid;
+    grid-gap: 20px;
+    font-size: 18px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.contenedor .row-1{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 150px 1fr;
+
+
+}

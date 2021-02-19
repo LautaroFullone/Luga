@@ -277,6 +277,12 @@ return [
             'icon'    => 'fas fa-atlas',
 
         ],
+        [
+            'text'       => 'Nuevo Producto',
+            'route'        => 'producto.crear',
+            'icon'    => 'fas fa-plus',
+
+        ],
 
     ],
 
