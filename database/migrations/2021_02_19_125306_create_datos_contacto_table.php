@@ -17,7 +17,7 @@ class CreateDatosContactoTable extends Migration
             $table->id();
 
             $table->unsignedBigInteger('id_user');
-            $table->foreign('id_user')->references('id')->on('products');
+            $table->foreign('id_user')->references('id')->on('users');
             $table->string('contacto');
             $table->string('telefono');
             $table->string('celular');

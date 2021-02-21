@@ -2,15 +2,18 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\DatoContacto;
-use App\DatoFiscal;
-use App\Http\Controllers\Controller;
-use App\Product;
-use App\Providers\RouteServiceProvider;
+
 use App\User;
+
+
+use App\Http\Controllers\Controller;
+use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+
+
+
 
 class RegisterController extends Controller
 {
@@ -66,7 +69,7 @@ class RegisterController extends Controller
             'nombre_comercial'=>['string','max:255'],
             'domicilio_comercial'=>['string','max:255'],
             'codigo_postal_comercial'=>['string','max:255'],
-            'piso_comercial'=>['string','max:255'],
+            'piso_comercial'=>['int','max:255'],
             'departamento_comercial'=>['string','max:255'],
             'localidad_comercial'=>['string','max:255'],
             'provincia_comercial'=>['string','max:255'],
@@ -80,7 +83,7 @@ class RegisterController extends Controller
             'condicion'=>['string','max:255'],
             'domicilio_fiscal'=>['string','max:255'],
             'codigo_postal_fiscal'=>['string','max:255'],
-            'piso_fiscal'=>['string','max:255'],
+            'piso_fiscal'=>['int','max:255'],
             'departamento_fiscal'=>['string','max:255'],
             'localidad_fiscal'=>['string','max:255'],
             'provincia_fiscal'=>['string','max:255'],

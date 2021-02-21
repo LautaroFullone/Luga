@@ -17,14 +17,14 @@ class CreateDatosComercialesTable extends Migration
             $table->id();
 
             $table->unsignedBigInteger('id_user');
-            $table->foreign('id_user')->references('id')->on('products');
+            $table->foreign('id_user')->references('id')->on('users');
             $table->string('nombre_comercial');
             $table->string('domicilio_comercial');
             $table->string('codigo_postal');
             $table->integer('piso');
             $table->string('departamento');
             $table->string('localidad');
-            $table->string('privincia');
+            $table->string('provincia');
             $table->string('telefono');
             $table->string('fax');
             $table->string('mail');

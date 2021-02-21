@@ -23,6 +23,7 @@ create table products(
 	id int auto_increment not null,
     title varchar(255),
     description varchar(255),
+    price float,
     id_category int,
     created_at datetime,
     updated_at datetime,

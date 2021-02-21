@@ -13,15 +13,16 @@ class CreateDatosFiscalesTable extends Migration
      */
     public function up()
     {
-        Schema::create('datoFiscales', function (Blueprint $table) {
+        Schema::create('datosFiscales', function (Blueprint $table) {
             $table->id();
 
             $table->unsignedBigInteger('id_user');
-            $table->foreign('id_user')->references('id')->on('products');
+            $table->foreign('id_user')->references('id')->on('users');
             $table->string('razon_social');
             $table->string('cuit');
             $table->string('condicion');
             $table->string('domicilio_fiscal');
+            $table->string('codigo_postal_fiscal');
             $table->integer('piso');
             $table->string('departamento');
             $table->string('localidad');

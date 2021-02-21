@@ -200,6 +200,10 @@
                 "laravel",
                 "shopping cart"
             ],
+            "support": {
+                "issues": "https://github.com/darryldecode/laravelshoppingcart/issues",
+                "source": "https://github.com/darryldecode/laravelshoppingcart/tree/4.2.0"
+            },
             "time": "2020-09-12T12:23:59+00:00"
         },
         {
@@ -6202,5 +6206,6 @@
     "platform": {
         "php": "^7.2.5|^8.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }

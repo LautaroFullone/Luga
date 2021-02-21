@@ -208,7 +208,7 @@
 
                                     <div class="input-group mb-2">
 
-                                        <input type="text" name="piso_comercial" class="form-control" placeholder="Piso">
+                                        <input type="number" name="piso_comercial" class="form-control" placeholder="Piso">
                                         <div style="padding-right: 10px" class="input-group-append">
                                             <div class="input-group-text">
                                                 <span class="fas fa-building {{ config('adminlte.classes_auth_icon', '') }}"></span>
@@ -350,7 +350,7 @@
 
                                     <div class="input-group mb-2">
 
-                                        <input type="text" name="piso_fiscal" class="form-control" placeholder="Piso">
+                                        <input type="number" name="piso_fiscal" class="form-control" placeholder="Piso">
                                         <div style="padding-right: 10px" class="input-group-append">
                                             <div class="input-group-text">
                                                 <span class="fas fa-building"></span>
