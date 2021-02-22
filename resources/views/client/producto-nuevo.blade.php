@@ -14,28 +14,83 @@
         <form action="{{ route('producto.save') }}" method="post">
             @csrf
             <div class="row-1">
-                <label for="title">Titulo</label>
-                <label for="price">Precio</label>
+                <label for="codigo">Codigo:</label>
+                <label for="title">Titulo:</label>
+            </div>
+
+            <div class="row-1">
+                <input type="text" name="id" class="form-control" value="{{ (App\Product::latest('id')->first()->id)+1 }}" readonly>
+                <input type="text" name="title" class="form-control"placeholder="Titulo" required>
+            </div>
+
+            <div class="row-1">
+                <label for="description">Descripcion:</label>
             </div>
             <div class="row-1">
-                <input type="text" name="title" class="form-control" placeholder="Titulo" required>
-                <input type="number" name="price" class="form-control"placeholder="Precio" required>
-
-            </div>
-            <!--<div class="precio">
-                <input type="number" name="price" placeholder="Price" required>
+                <textarea name="description" id="description"></textarea>
             </div>
 
-            <div class="descripcion">
-                <textarea name="description" placeholder="Descripcion" required></textarea>
 
+            <div class="row-0">
+                <label for="categoria">Categoria:</label>
+                <label for="precio">Precio:</label>
             </div>
 
-            <div class="categoria">
-                <input type="number" name="id_category" placeholder="Categoria" >
+            <div class="row-0">
+                <select name="" id="categoria" class="form-control">
+                    <option >Elige una opción</option>
+                    <option value="">Consolas</option>
+                    <option value="">Teclados</option>
+                    <option value="">Lamparas</option>
+                    <option value="">Accesorios</option>
+                    <option value="">Cartuchos</option>
+                </select>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">$</span>
+                    </div>
+                    <input type="number" name="price" class="form-control" >
+                </div>
             </div>
 
-            <button class="btn btn-outline-luga" type="submit">Enviar</button> -->
+            <div class="row-1">
+                <label for="">Mostrar en:</label>
+            </div>
+
+            <div class="row-0">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="web" checked>
+                    <label class="form-check-label" for="web">
+                      Pagina Web
+                    </label>
+                  </div>
+            </div>
+            <div class="row-0">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="ingresos">
+                    <label class="form-check-label" for="ingresos">
+                        Ultimos Ingresos
+                    </label>
+                  </div>
+            </div>
+            <div class="row-0">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="outlet" checked>
+                    <label class="form-check-label" for="outlet">
+                      Listado Outlet
+                    </label>
+                  </div>
+            </div>
+            <div class="row-0">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="rebajas" checked>
+                    <label class="form-check-label" for="rebajas">
+                      Rebajas
+                    </label>
+                  </div>
+            </div>
+            <!--<button class="btn btn-outline-luga" type="submit">Enviar</button> -->
         </form>
 </div>
 

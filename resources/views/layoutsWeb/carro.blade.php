@@ -59,7 +59,7 @@
         </ul>
         <p class="minicart-total">SUBTOTAL: <span>$21.689,80</span></p>
         <div class="minicart-button">
-            <a href="{{ route('shopping-cart') }}" class="li-button li-button-fullwidth">
+            <a href="{{ route('cart.showCart') }}" class="li-button li-button-fullwidth">
                 <span>Ver Carro Completo</span>
             </a>
         </div>
