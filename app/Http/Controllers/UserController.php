@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\DatoContacto;
+use App\DatoFiscal;
+use App\User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -37,5 +40,24 @@ class UserController extends Controller
 
     public function delete(){
 
+    }
+    public function store(Request $request)
+    {
+
+        $validate = $this->validate($request, array(
+
+            'title' => 'required',
+            'description' => 'required',
+            'price' => 'required|integer'
+        ));
+
+        User::create(
+            [
+                'role' => $request->input('role'),
+                'nombre'=>$request->input('name'),
+                'email'=>$request->input('email'),
+                'password'=>$request->input('password')
+            ]
+        );
     }
 }

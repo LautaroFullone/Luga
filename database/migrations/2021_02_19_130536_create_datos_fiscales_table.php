@@ -22,7 +22,7 @@ class CreateDatosFiscalesTable extends Migration
             $table->string('cuit');
             $table->string('condicion');
             $table->string('domicilio_fiscal');
-            $table->string('codigo_postal_fiscal');
+            $table->string('codigo_postal');
             $table->integer('piso');
             $table->string('departamento');
             $table->string('localidad');

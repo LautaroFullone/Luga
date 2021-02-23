@@ -27,7 +27,7 @@ class CreateDatosComercialesTable extends Migration
             $table->string('provincia');
             $table->string('telefono');
             $table->string('fax');
-            $table->string('mail');
+            $table->string('email');
             $table->string('expreso_envio');
 
 
