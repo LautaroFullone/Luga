@@ -106,26 +106,27 @@
                         <div class="col-lg-6 col-md-12 order-2 order-lg-1">
                             <div class="contact-form-content pt-sm-55 pt-xs-55">
                                 <h3 class="contact-page-title">Envianos un Mensaje</h3>
-                                <div class="contact-form">
-                                    <form  id="contact-form" action="#" method="post">
+                                <div class="contact-form form-eliminar">
+                                    <form   action="{{ route('mail') }}" method="post">
+                                        @csrf
                                         <div class="form-group">
                                             <label>Tu nombre <span class="required">*</span></label>
-                                            <input type="text" name="customerName" id="customername" required>
+                                            <input type="text" name="name" id="name" required>
                                         </div>
                                         <div class="form-group">
                                             <label>Tu Email <span class="required">*</span></label>
-                                            <input type="email" name="customerEmail" id="customerEmail" required>
+                                            <input type="email" name="email" id="email" required>
                                         </div>
                                         <div class="form-group">
                                             <label>Motivo</label>
-                                            <input type="text" name="contactSubject" id="contactSubject">
+                                            <input type="text" name="motivo" id="motivo">
                                         </div>
                                         <div class="form-group mb-30">
                                             <label>Tu Mensaje</label>
-                                            <textarea name="contactMessage" id="contactMessage" ></textarea>
+                                            <textarea name="body" id="body" ></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <button type="submit" value="submit" id="submit" class="li-btn-3" name="submit">Enviar</button>
+                                            <button type="submit"  class="li-btn-3" >Enviar</button>
                                         </div>
                                     </form>
                                 </div>
@@ -379,6 +380,33 @@
                     });
                 }
             </script>
+            <!-- Es el link para la alerta sweetalert2-->
+            <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+            @if (session('mensaje')=='true')
+            <script>
+                Swal.fire({
+                title: 'Mail!',
+                text: 'Mail enviado correctamente',
+                icon: 'success',
+                confirmButtonText: 'Cool'
+                })
+            </script>
+            @endif
+            <script>
+                $('.form-eliminar').submit(function(e){
+
+                    Swal.fire({
+                    title: 'Mail!',
+                    text: 'Su mail se esta enviando',
+                    icon: 'success',
+                    confirmButtonText: 'Cool'
+                    })
+
+                });
+
+            </script>
+
     </body>
 
 <!-- contact32:04-->
