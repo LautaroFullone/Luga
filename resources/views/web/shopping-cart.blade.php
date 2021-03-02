@@ -96,66 +96,24 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            @foreach ($carrito as $item)
                                             <tr>
-                                                <td class="li-product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
+                                                <td class="li-product-remove"><a href="{{ url('/carro-remover/'.$item->associatedModel->id )}}"> <i class="fa fa-times"></i></a></td>
                                                 <td class="producto-carrito"><a href="#"><img src="images/web/samsung.jpg" alt="Li's Product Image"></a></td>
-                                                <td class="li-product-name"><a href="#">Samsung A10 2020</a></td>
-                                                <td class="li-product-price"><span class="amount">$20.000,00</span></td>
+                                                <td class="li-product-name"><a href="#">{{ $item->name }}</a></td>
+                                                <td class="li-product-price"><span class="amount">{{ $item->price }}</span></td>
                                                 <td class="quantity">
-                                                    <label>Quantity</label>
+
                                                     <div class="cart-plus-minus">
-                                                        <input class="cart-plus-minus-box" value="1" type="text">
+                                                        <input class="cart-plus-minus-box" value="{{ $item->quantity }}" type="text">
                                                         <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
                                                         <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
                                                     </div>
                                                 </td>
                                                 <td class="product-subtotal"><span class="amount">$20.000,00</span></td>
                                             </tr>
-                                            <tr>
-                                                <td class="li-product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                                                <td class="producto-carrito"><a href="#"><img src="images/web/vidrio.jpg" alt="Li's Product Image"></a></td>
-                                                <td class="li-product-name"><a href="#">Vidrio Templado Samsung A10</a></td>
-                                                <td class="li-product-price"><span class="amount">$350,00</span></td>
-                                                <td class="quantity">
-                                                    <label>Quantity</label>
-                                                    <div class="cart-plus-minus">
-                                                        <input class="cart-plus-minus-box" value="1" type="text">
-                                                        <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
-                                                        <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
-                                                    </div>
-                                                </td>
-                                                <td class="product-subtotal"><span class="amount">$350,00</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="li-product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                                                <td class="producto-carrito"><a href="#"><img src="images/web/funda.jpg" alt="Li's Product Image"></a></td>
-                                                <td class="li-product-name"><a href="#">Funda Celular Samsung A10 2020</a></td>
-                                                <td class="li-product-price"><span class="amount">$850,00</span></td>
-                                                <td class="quantity">
-                                                    <label>Quantity</label>
-                                                    <div class="cart-plus-minus">
-                                                        <input class="cart-plus-minus-box" value="1" type="text">
-                                                        <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
-                                                        <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
-                                                    </div>
-                                                </td>
-                                                <td class="product-subtotal"><span class="amount">$850,00</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="li-product-remove"><a href="#"><i class="fa fa-times"></i></a></td>
-                                                <td class="producto-carrito"><a href="#"><img src="images/web/memoria4.jpg" alt="Li's Product Image"></a></td>
-                                                <td class="li-product-name"><a href="#">Memoria Kingston Micro SD 16GB clase 10</a></td>
-                                                <td class="li-product-price"><span class="amount">$489,80</span></td>
-                                                <td class="quantity">
-                                                    <label>Quantity</label>
-                                                    <div class="cart-plus-minus">
-                                                        <input class="cart-plus-minus-box" value="1" type="text">
-                                                        <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
-                                                        <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
-                                                    </div>
-                                                </td>
-                                                <td class="product-subtotal"><span class="amount">$489,80</span></td>
-                                            </tr>
+
+                                        @endforeach
                                         </tbody>
                                     </table>
                                 </div>

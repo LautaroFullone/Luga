@@ -19,7 +19,7 @@
             </div>
 
             <div class="row-1">
-                <input type="text" name="id" class="form-control" value="{{ (App\Product::latest('id')->first()->id)+1 }}" readonly>
+                <input type="text" name="id" class="form-control" value="{{ 1 }}" readonly>
                 <input type="text" name="title" class="form-control"placeholder="Titulo" required>
             </div>
 
@@ -37,13 +37,13 @@
             </div>
 
             <div class="row-0">
-                <select name="" id="categoria" class="form-control">
+                <select name="id_category" class="form-control">
                     <option >Elige una opción</option>
-                    <option value="">Consolas</option>
-                    <option value="">Teclados</option>
-                    <option value="">Lamparas</option>
-                    <option value="">Accesorios</option>
-                    <option value="">Cartuchos</option>
+                    <option value="1">Consolas</option>
+                    <option value="2">Teclados</option>
+                    <option value="3">Lamparas</option>
+                    <option value="4">Accesorios</option>
+                    <option value="5">Cartuchos</option>
                 </select>
 
                 <div class="input-group mb-3">
@@ -90,7 +90,7 @@
                     </label>
                   </div>
             </div>
-            <!--<button class="btn btn-outline-luga" type="submit">Enviar</button> -->
+            <button class="btn btn-outline-luga" type="submit">Enviar</button>
         </form>
 </div>
 
