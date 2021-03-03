@@ -13,9 +13,9 @@
         <!-- Material Design Iconic Font-V2.2.0 -->
         <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{asset('css/font-awesome.min.css') }}">
         <!-- Font Awesome Stars-->
-        <link rel="stylesheet" href="css/fontawesome-stars.css">
+        <link rel="stylesheet" href="{{asset('css/fontawesome-stars.css') }}">
         <!-- Meanmenu CSS -->
         <link rel="stylesheet" href="css/meanmenu.css">
         <!-- owl carousel CSS -->
@@ -123,7 +123,7 @@
                                         <div class="cart-page-total">
                                             <h2>Montos</h2>
                                             <ul>
-                                                <li>Subtotal <span>$21.689,80</span></li>
+                                                <li>Subtotal <span>${{ $subTotal }}</span></li>
                                                 <li>Total <span>$21.689,80</span></li>
                                             </ul>
                                             <a href="#">Proceder con el Pago</a>
