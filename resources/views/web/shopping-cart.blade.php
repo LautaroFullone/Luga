@@ -92,7 +92,6 @@
                                                 <th class="cart-product-name">Producto</th>
                                                 <th class="li-product-price">Precio Unidad</th>
                                                 <th class="li-product-quantity">Cantidad</th>
-                                                <th class="li-product-subtotal">Total</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -104,13 +103,13 @@
                                                 <td class="li-product-price"><span class="amount">{{ $item->price }}</span></td>
                                                 <td class="quantity">
 
-                                                    <div class="cart-plus-minus">
-                                                        <input class="cart-plus-minus-box" value="{{ $item->quantity }}" type="text">
-                                                        <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
-                                                        <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
+                                                    <div>
+                                                        <div><a href="{{ route('cart.updateup',array('id'=> $item->associatedModel->id))}}"> <i class="fa fa-angle-up"></i></a></div>
+                                                        <div class="div-quantity"> {{ $item->quantity }}</div>
+                                                        <div ><a href="{{ route('cart.updatedown',array('id'=> $item->associatedModel->id))}}"><i class="fa fa-angle-down"></i></a></div>
                                                     </div>
                                                 </td>
-                                                <td class="product-subtotal"><span class="amount">$20.000,00</span></td>
+
                                             </tr>
 
                                         @endforeach
@@ -124,7 +123,7 @@
                                             <h2>Montos</h2>
                                             <ul>
                                                 <li>Subtotal <span>${{ $subTotal }}</span></li>
-                                                <li>Total <span>$21.689,80</span></li>
+                                                <li>Total <span>${{ $total }}</span></li>
                                             </ul>
                                             <a href="#">Proceder con el Pago</a>
                                         </div>

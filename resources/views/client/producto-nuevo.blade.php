@@ -19,7 +19,7 @@
             </div>
 
             <div class="row-1">
-                <input type="text" name="id" class="form-control" value="{{ 1 }}" readonly>
+                <input type="text" name="id" class="form-control" value="{{ 2 }}" readonly>
                 <input type="text" name="title" class="form-control"placeholder="Titulo" required>
             </div>
 

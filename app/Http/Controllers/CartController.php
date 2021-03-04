@@ -22,7 +22,7 @@ class CartController extends Controller
         Cart::session($user_id)->add(array(
                     'id' =>$product->id,
                     'name' => $product->title,
-                    'quantity' => 1,
+                    'quantity' => $request->quantity,
                     'price' => $product->price,
                     'attributes' => array(),
                     'associatedModel' => $product
@@ -33,9 +33,11 @@ class CartController extends Controller
     public function showCart(){
         $user_id = Auth::user()->id;
         $carrito = Cart::session($user_id)->getContent();
+
         $cartTotalQuantity = Cart::session($user_id)->getTotalQuantity();
         $subTotal = Cart::session($user_id)->getSubTotal();
-        return view('web.shopping-cart')-> with(array('carrito' => $carrito,'quantity'=>$cartTotalQuantity,'subTotal'=>$subTotal));
+        $total= Cart::session($user_id)->getTotal();
+        return view('web.shopping-cart')-> with(array('carrito' => $carrito,'quantity'=>$cartTotalQuantity,'subTotal'=>$subTotal,'total'=>$total));
     }
 
     public function removeItem($id){
@@ -51,11 +53,17 @@ class CartController extends Controller
         Cart::session($user_id)->clear();
         return redirect()->back();
     }
-    public function update(Request $request){
-        dd($request->all());
+    public function updateup($id){
         $user_id = Auth::user()->id;
-        Cart::session($user_id)->update($request->id,array(
-            'quantity'=> $request->quantity
+        Cart::session($user_id)->update($id,array(
+            'quantity'=> +1
+        ));
+        return redirect()->route('cart.showCart');
+    }
+    public function updatedown($id){
+        $user_id = Auth::user()->id;
+        Cart::session($user_id)->update($id,array(
+            'quantity'=> -1
         ));
         return redirect()->route('cart.showCart');
     }

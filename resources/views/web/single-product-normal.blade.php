@@ -135,13 +135,11 @@
                                     <div class="single-add-to-cart">
                                         <form action="{{ route('cart.add') }}" method="post" class="cart-quantity">
                                             @csrf
-                                            <input type="hidden" name="id" value="{{ 1 }}">
+                                            <input type="hidden" name="id" value="{{ 2 }}">
                                             <div class="quantity">
                                                 <label>Cantidad</label>
-                                                <div class="cart-plus-minus">
-                                                    <input class="cart-plus-minus-box" value="1" type="text">
-                                                    <div class="dec qtybutton"><i class="fa fa-angle-down"></i></div>
-                                                    <div class="inc qtybutton"><i class="fa fa-angle-up"></i></div>
+                                                <div class="div-quantity" style="width: 100px" >
+                                                    <input type="number" name="quantity" value="1">
                                                 </div>
                                             </div>
                                             <button class="add-to-cart" type="submit">Añadir al Carro</button>

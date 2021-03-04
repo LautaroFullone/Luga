@@ -32,7 +32,9 @@ Route::post('/carro-agregar', 'CartController@add')->name('cart.add');
 Route::get('/carro-index', 'CartController@showCart')->name('cart.showCart');
 Route::get('/carro-limpiar', 'CartController@clear')->name('cart.clear');
 Route::get('/carro-remover/{id}', 'CartController@removeItem')->name('cart.remove');
-Route::get('/carro-actualizar', 'CartController@update')->name('cart.update');
+Route::get('/carro-actualizarup/{id}', 'CartController@updateup')->name('cart.updateup');
+Route::get('/carro-actualizardown/{id}', 'CartController@updatedown')->name('cart.updatedown');
+Route::get('/carro-database/{id}','cartStorageController@put')->name('cart.database');
 
 
 
