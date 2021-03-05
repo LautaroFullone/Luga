@@ -135,7 +135,7 @@
                                     <div class="single-add-to-cart">
                                         <form action="{{ route('cart.add') }}" method="post" class="cart-quantity">
                                             @csrf
-                                            <input type="hidden" name="id" value="{{ 2 }}">
+                                            <input type="hidden" name="id" value="{{ 1 }}">
                                             <div class="quantity">
                                                 <label>Cantidad</label>
                                                 <div class="div-quantity" style="width: 100px" >

@@ -44,14 +44,16 @@ class User extends Authenticatable
 
     //trae el objeto dato_comercial cuyo ID sea igual al ID_USER del usuario
     public function datos_comerciales(){
-        return $this->belongsTo('App\DatoComercial', 'user_id');
+        return $this->belongsTo('App\DatoComercial', 'id_user');
     }
 
     //trae el objeto dato_fiscal cuyo ID sea igual al ID_USER del usuario
     public function datos_fiscales(){
-        return $this->belongsTo('App\DatoFiscal', 'user_id');
+        return $this->belongsTo('App\DatoFiscal', 'id_user');
     }
-
+    public function BddCart(){
+        return $this->hasMany('App\BddCart','id_user');
+    }
 
     public function adminlte_image()
     {
