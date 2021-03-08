@@ -17,14 +17,16 @@ class WebController extends Controller
         $cartBdd= new CartBdd();
         $cartController= new CartController();
         $user_carro=$cartBdd->get($user_id);
-
-        if(!empty($user_carro))
+        //dd($user_carro);
+        $subtotal = Cart::session($user_id)->getSubTotal();
+        
+        if(!empty($user_carro) && $subtotal == 0.0)
         {
             $cartController->addNoRequest($user_carro);
         }
-        $subTotal = Cart::session($user_id)->getSubTotal();
+        
         $cartTotalQuantity = Cart::session($user_id)->getTotalQuantity();
-        return view('web.index')-> with(array('subTotal' => $subTotal,'quantity'=>$cartTotalQuantity));
+        return view('web.index')-> with(array('subTotal' => $subtotal,'quantity'=>$cartTotalQuantity));
     }
 
     public function showSingleProduct(){

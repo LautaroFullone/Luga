@@ -34,32 +34,27 @@ class CartController extends Controller
                     'attributes' => array(),
                     'associatedModel' => $product
         ));
-        if(empty($this->cartBdd->get($user_id)))
-        {
+       
             $carrito = Cart::session($user_id)->getContent();
             $this->cartBdd->put($user_id,$carrito);
-        }
+        
         return $this->showCart();
     }
 
     public function addNoRequest($carro)
     {   $user_id = Auth::user()->id;
 
-        echo '<pre>';
-        var_dump($carro);
-        echo'</pre>';
-
-
+        foreach ($carro as $key => $carrito) {
         Cart::session($user_id)->add(array(
-            'id' =>$carro[$user_id]->id,
-            'name' => $carro[$user_id]->name,
-            'quantity' => $carro[$user_id]->quantity,
-            'price' => $carro[$user_id]->price,
+            'id' =>$carrito->id,
+            'name' => $carrito->name,
+            'quantity' =>  $carrito->quantity,
+            'price' => $carrito->price,
             'attributes' => array(),
-            'associatedModel' => $carro[$user_id]->associatedModel
+            'associatedModel' => $carrito->associatedModel
         ));
 
-
+    }
     }
     public function showCart(){
         $user_id = Auth::user()->id;
@@ -75,12 +70,16 @@ class CartController extends Controller
         Cart::session($user_id)->remove(array(
                     'id' => $id
         ));
+            $carrito = Cart::session($user_id)->getContent();
+            $this->cartBdd->put($user_id,$carrito);
         return redirect()->route('cart.showCart');
     }
 
     public function clear(){
         $user_id = Auth::user()->id;
         Cart::session($user_id)->clear();
+            $carrito = Cart::session($user_id)->getContent();
+            $this->cartBdd->put($user_id,$carrito);
         return redirect()->back();
     }
     public function updateup($id){
@@ -88,6 +87,9 @@ class CartController extends Controller
         Cart::session($user_id)->update($id,array(
             'quantity'=> +1
         ));
+
+            $carrito = Cart::session($user_id)->getContent();
+            $this->cartBdd->put($user_id,$carrito);
         return redirect()->route('cart.showCart');
     }
     public function updatedown($id){
@@ -95,6 +97,9 @@ class CartController extends Controller
         Cart::session($user_id)->update($id,array(
             'quantity'=> -1
         ));
+
+            $carrito = Cart::session($user_id)->getContent();
+            $this->cartBdd->put($user_id,$carrito);
         return redirect()->route('cart.showCart');
     }
 }
